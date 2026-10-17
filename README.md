@@ -25,10 +25,12 @@ The private development history records work on:
 | Area | Local prototype work |
 | :--- | :--- |
 | Original world | Client scene import, terrain, rock formations, collision and doors |
-| Survival | Gathering, wildlife, hunting, hunger, bleeding, food and medical items |
+| Survival | Gathering, wildlife, hunting, hunger, bleeding, food, medical items, night cold and radiation |
 | Items & crafting | Inventory, loot, recipes and item interactions |
 | Player-made world | Building pieces, placement, doors, deployables and sleeping bags |
 | Camp life | Campfires, cooking, furnaces, storage and workbenches |
+| Combat | Firearms, bows, grenades, explosive charges and wearable armour |
+| Environment | Recovered day/night clock, changing lighting, fire warmth and radiation zones |
 
 These are development milestones, not a claim of complete fidelity or release readiness. Multiplayer, native server compatibility, security and browser performance still need substantial validation.
 
