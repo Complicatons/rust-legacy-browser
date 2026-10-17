@@ -2,6 +2,22 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 17 October 2026 — GPU validation and online presentation
+
+- Verified full gameplay, save/reload, repair and first-person held models on an NVIDIA RTX 4090 in Microsoft Edge/WebGL2.
+- Added original remote-player models and unarmed movement animations, plus server-driven wildlife movement, attack and death presentation.
+- Added original online campfire flames, smoke, sparks and light, controlled by server state.
+- Checked the website-to-game join through the account service, gateway and server adapter using the project's own UDP server mock. Website and two-client transport checks also pass.
+- Kept engineering checkpoints and AI handoff notes current in the private implementation repository.
+
+The connection stack is implemented and mock-tested. **No real Legacy server interoperability has been demonstrated yet.** Online inventory, equipment and several gameplay actions remain unfinished. Remote clothing/held items, full animation blending and the original HUD still need work; this is not a public playable release.
+
+| Original M4 sights | Online campfire effects |
+| --- | --- |
+| ![Original M4 sights rendered in Edge](../assets/screenshots/m4-aim.png) | ![Server-controlled campfire rendered in the browser](../assets/screenshots/online-fire.png) |
+
+Actual local prototype captures from 17 October 2026, with unfinished development controls visible. The campfire capture uses our mock server through the full connection stack.
+
 ## 17 October 2026 — Combat and environmental survival
 
 - Added local firearm, bow, grenade and explosive-charge behaviour, with wearable armour. Weapon viewmodels, hitboxes and several effects remain unfinished.

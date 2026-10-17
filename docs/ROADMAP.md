@@ -8,8 +8,8 @@ This is a direction of travel, not a release schedule. No launch date has been a
 | Building and player interactions | Local prototype | Structures, deployables, items, camp life and respawn; continued fidelity testing |
 | Combat and environment | Local prototype | Firearms, bows, explosives, armour, day/night cycle, night cold and original radiation zones; visual and animation fidelity still incomplete |
 | Browser polish and validation | In progress / remaining | Interface, audio, visual parity, loading, performance and broader browser testing |
-| Multiplayer compatibility | Planned / unverified | Protocol investigation, bridge implementation and controlled end-to-end testing |
-| Accounts and server directory | Planned | Website sign-in, stable player identity, server enrolment and server-scoped join tickets |
+| Multiplayer compatibility | Implemented / mock-tested | Connection stack and online models/state checked through a mock server; real Legacy server compatibility remains unverified |
+| Accounts and server directory | Implemented / local validation | Website sign-in, stable identities, server enrolment and one-use join tickets; production identity providers/hosting need configuration |
 | Hosting pilot | Planned | One controlled server, persistence, reconnects, backups and operational monitoring |
 | Community server support | Planned | Versioned bridge packages, operator documentation, registration and compatibility checks |
 | Public availability | Future milestone | Distribution arrangements, reliable hosting and a clearly documented supported experience |
