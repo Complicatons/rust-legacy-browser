@@ -2,6 +2,8 @@
 
 **Design proposal, not a description of a deployed service.** Compatibility with original Legacy servers still needs implementation and validation.
 
+See [the existing-server integration plan](SERVER-INTEGRATION.md) for the unchanged-server gateway route, operator-installed adapters, desktop character linking and implementation gates.
+
 ```mermaid
 flowchart TD
     Player[Player's browser] --> Site[Website and browser client]

@@ -4,6 +4,8 @@ Maintained by [Complicatons](https://github.com/Complicatons). Entries below sum
 
 ## 17 October 2026 — Building and camp life
 
+Networking planning update: investigated existing-server gateway options and historical Legacy approval hooks. Added [the server integration plan](SERVER-INTEGRATION.md), distinguishing unchanged-server access from operator-installed identity adapters. No native server connection has yet been demonstrated.
+
 - Work on deployables, cooking and camp respawn.
 - Building work covering structures, hardpoints and placed doors.
 - Public project journal prepared with screenshots, roadmap and an origin record.
