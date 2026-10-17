@@ -1,0 +1,13 @@
+{
+  "project": "Rust Legacy Browser",
+  "creator": "Complicatons",
+  "creator_url": "https://github.com/Complicatons",
+  "documented_development_start": "2026-10-16",
+  "public_journal_prepared": "2026-10-17",
+  "private_source_snapshot": {
+    "commit": "bb26ba1d7ef6f33b76571a797e8f6e9e55e27772",
+    "tree": "905b621c87271d4647e0d837e737342cfec5b5da",
+    "commit_date": "2026-10-17T09:27:03+01:00"
+  },
+  "scope": "Records this project's development snapshot; does not assert universal priority or ownership of the original game."
+}

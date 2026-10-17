@@ -1,0 +1,16 @@
+# This repository deliberately contains documentation and reviewed images only.
+*
+!.gitignore
+!README.md
+!CONTRIBUTING.md
+!RIGHTS.md
+!assets/
+!assets/banner.svg
+!assets/screenshots/
+!assets/screenshots/compound.png
+!assets/screenshots/building.png
+!assets/screenshots/inventory.png
+!docs/
+!docs/*.md
+!provenance/
+!provenance/*.json

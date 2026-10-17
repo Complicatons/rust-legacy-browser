@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="440" viewBox="0 0 1400 440" role="img" aria-labelledby="title desc">
+<title id="title">Rust Legacy Browser</title><desc id="desc">An unofficial browser port project by Complicatons. Development journal.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#202a2d"/><stop offset="1" stop-color="#101417"/></linearGradient><pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#b6c1bf" stroke-opacity=".06"/></pattern></defs>
+<rect width="1400" height="440" rx="16" fill="url(#bg)"/><rect width="1400" height="440" fill="url(#grid)"/>
+<path d="M830 440l80-154 75 38 96-193 68 102 69-53 182 140v120z" fill="#2a3536"/><path d="M926 440l77-115 66 54 85-102 101 88 85-34 60 58v51z" fill="#34403d"/>
+<circle cx="1168" cy="111" r="45" fill="#ee7448" opacity=".85"/><path d="M1175 72v78M1136 111h78" stroke="#111719" opacity=".3"/>
+<rect x="58" y="54" width="5" height="305" fill="#ee7448"/>
+<text x="88" y="85" fill="#c5d0cb" font-family="Arial,sans-serif" font-size="15" letter-spacing="5">INDEPENDENT DEVELOPMENT JOURNAL</text>
+<text x="84" y="184" fill="#f3f0e7" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="91" letter-spacing="-3">RUST LEGACY</text>
+<text x="88" y="267" fill="#ee7448" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="78" letter-spacing="5">BROWSER</text>
+<text x="90" y="322" fill="#c5d0cb" font-family="Arial,sans-serif" font-size="22">A browser port project by Complicatons</text>
+<text x="90" y="389" fill="#899b95" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">UNOFFICIAL COMMUNITY PROJECT  /  IN DEVELOPMENT  /  EST. OCT 2026</text>
+</svg>
