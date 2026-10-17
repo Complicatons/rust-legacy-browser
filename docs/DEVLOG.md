@@ -2,6 +2,19 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 17 October 2026 — Online firearms and animated hit regions
+
+- Connected browser firearm shots and reload requests to the online connection stack. Recoil, aiming and original first-person animations run in the browser; inventory counts and damage remain server-owned.
+- Added the original player's 23 animated hit regions, following the head, torso and limbs through standing, walking and crouching poses.
+- Added server wildlife collision for targeting and checked player, animal and world-object shot reports through the project's own server mock.
+- Verified online combat, offline gameplay and original viewmodels on the RTX 4090. All 187 automated checks pass.
+
+Real Legacy server interoperability remains unverified. Melee, bows, throwables and placement still need online integration; animation, effects and interface fidelity also remain unfinished. There is no public playable release yet.
+
+![Original M4 sights during the online mock-server check](../assets/screenshots/online-gun-aim.png)
+
+Actual local prototype capture, 17 October 2026. Development controls remain visible. Implementation, detailed protocol notes and recovered assets stay private.
+
 ## 17 October 2026 — Online inventory, equipment and respawn
 
 - Connected the inventory and crafting windows to server updates. Moving items, taking loot and crafting send requests; item counts change when the server confirms them.
