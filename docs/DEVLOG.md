@@ -2,6 +2,21 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 17 October 2026 — Online inventory, equipment and respawn
+
+- Connected the inventory and crafting windows to server updates. Moving items, taking loot and crafting send requests; item counts change when the server confirms them.
+- Added original clothing changes for remote players, original loot sacks and clothed sleeping-player models with collision.
+- Connected server health, bleeding and metabolism, plus death and respawn. Clicking Respawn waits for the server to create and place a new character.
+- Verified the online flows and narrow inventory layout on the RTX 4090. All 182 automated checks pass; the offline gameplay/save/repair regressions also pass.
+
+These are prototype checks through our own server mock. Real Legacy server interoperability, combat/placement routing, full animation/HUD fidelity and production hosting still need work. There is no public playable release yet.
+
+| Server inventory | Original sleeper and loot models |
+| --- | --- |
+| ![Server inventory window in the prototype](../assets/screenshots/server-inventory.png) | ![Clothed sleeping player and loot sacks](../assets/screenshots/sleeper-loot.png) |
+
+Actual local prototype captures from 17 October 2026. Implementation, detailed engineering notes and recovered game assets remain private.
+
 ## 17 October 2026 — GPU validation and online presentation
 
 - Verified full gameplay, save/reload, repair and first-person held models on an NVIDIA RTX 4090 in Microsoft Edge/WebGL2.
