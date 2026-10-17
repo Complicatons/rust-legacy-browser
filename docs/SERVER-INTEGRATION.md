@@ -2,6 +2,10 @@
 
 17 October 2026. Researched design; no original-server interoperability demonstrated yet.
 
+For a plain-language explanation, read [the player and server-owner guide](PLAYERS-AND-SERVER-OWNERS.md).
+
+**First-release decision:** participating operators will install a gateway plus server identity adapter. Unchanged-server access remains later research; the first release does not depend on solving it. Existing players will need a verified one-time link to retain an existing server identity. New browser identities will be offered only where the supported server profile can safely allocate them.
+
 The goal is to keep the original Legacy server authoritative and let browser players join its world. The gateway is a networking and admission component, not a replacement survival game server.
 
 ## Two routes

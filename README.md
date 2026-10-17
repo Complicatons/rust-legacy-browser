@@ -44,6 +44,8 @@ These are development milestones, not a claim of complete fidelity or release re
 
 The intended experience is straightforward: visit the website, sign in, browse community servers and join from the browser. Your stable account identity would let each server recognise you across sessions and IP changes. Each server would retain its own world, inventory and progression, subject to that server's wipe policy.
 
+**For the first release, server owners will need to install our browser connection package.** Existing desktop players would link their character once to use that same server identity in the browser. Read [the guide for players and server owners](docs/PLAYERS-AND-SERVER-OWNERS.md) for the planned steps and requirements.
+
 The planned system combines a browser client, website accounts, a server directory and a bridge operated alongside each participating game server. Existing Legacy servers would need a compatible bridge and verified protocol support before browser players could join. [Read the proposed hosting design →](docs/ARCHITECTURE.md)
 
 ## Follow the work
