@@ -2,6 +2,17 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Online building placement and world cleanup
+
+- Connected building and deployable previews to the online world. Pieces snap to the building groups supplied by the server.
+- Placement sends a request; the server creates the piece and updates inventory. Verified new foundations, snapped pillars and storage-box requests through the local server mock.
+- Fixed cleanup when server groups leave view, including old objects, collision and state when an area returns.
+- All 204 automated checks pass. RTX 4090 checks cover the full online connection path and offline gameplay.
+
+![Pillar preview snapped to a server-created foundation](../assets/screenshots/online-building-preview.png)
+
+Actual local mock-server capture, 18 October 2026. Other players' held items, animation and interface fidelity are still in progress. Real Legacy server compatibility remains unverified; there is no public playable release yet.
+
 ## 18 October 2026 — Online grenades and flares
 
 - Connected grenade throws, supply signals, flares and torch activation to the online stack.
