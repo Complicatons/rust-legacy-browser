@@ -2,6 +2,14 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Player animation transitions
+
+- Added separate transitions for equipment, crouching, movement and jumping, using recovered timing settings.
+- Walking directions share a distance-based animation clock; stopping retains the previous heading, and jump clips hold their final frame instead of looping.
+- All 267 automated checks pass. Focused RTX 4090 rendering checks cover the original character skins, movement blends, crouching and jumping. The full online mock-server regression also passes, including animated hit regions, held weapons and inventory interactions.
+
+Exact original animation layering and further presentation work remain unfinished. Real Legacy server compatibility testing is planned for the final phase; current online checks use the project's own server mock.
+
 ## 18 October 2026 — Batch crafting and blueprint controls
 
 - Added the original blueprint categories, quantity shortcuts, ingredient totals and crafting progress controls.
