@@ -2,6 +2,15 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Remote torches, melee and door codes
+
+- Added server-driven remote torch flame/light and the original melee swing animation, with cleanup when an item is extinguished or removed.
+- Connected door-code entry to the server's menu requests and responses. Invalid input stays in the window; valid codes are submitted for the server to check.
+- Added the offline door ownership and lock menus, and checked the input window on a narrow screen.
+- All 212 automated checks pass. Online and offline gameplay checks pass on the RTX 4090.
+
+These remain local prototype results through the project's own server mock. Interface fidelity, remaining effects and real Legacy server compatibility still need work.
+
 ## 18 October 2026 — Other players' held items and aiming
 
 - Added the original third-person item representations and hand attachments, driven by server-created items.
