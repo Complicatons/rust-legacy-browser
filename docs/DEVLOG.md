@@ -2,6 +2,17 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Other players' held items and aiming
+
+- Added the original third-person item representations and hand attachments, driven by server-created items.
+- Verified twelve representative item types, switching, movement and cleanup. The recovered data maps 53 items to the original shared world models.
+- Connected armed walking/crouching and upper-body aiming. Fixed the network look-angle direction and checked that weapons rise and lower with the remote player's aim.
+- All 209 automated checks pass. The full online interaction check passes on the RTX 4090.
+
+![Remote player aiming upward with the original weapon model](../assets/screenshots/online-remote-aim-up.png)
+
+Actual local mock-server capture, 18 October 2026. Full animation fidelity, remote attack effects, item modifications and interface work remain unfinished. Real Legacy server compatibility remains unverified.
+
 ## 18 October 2026 — Online building placement and world cleanup
 
 - Connected building and deployable previews to the online world. Pieces snap to the building groups supplied by the server.
