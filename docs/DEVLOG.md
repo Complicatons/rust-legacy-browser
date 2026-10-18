@@ -2,6 +2,17 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Online grenades and flares
+
+- Connected grenade throws, supply signals, flares and torch activation to the online stack.
+- World projectiles follow server updates. Explosions and signal clouds appear when the server confirms completion; the browser does not apply its own online damage or consume inventory.
+- Added original flare sound, world flame and light presentation.
+- All 200 automated checks pass. RTX 4090 checks cover online projectile effects, offline gameplay and the original held-item models.
+
+![Grenade effects in the online prototype](../assets/screenshots/online-grenade-explosion.png)
+
+Actual local mock-server capture, 18 October 2026. Online building placement is the next integration task. Original presentation fidelity and real Legacy server compatibility remain unfinished. Implementation and recovered assets stay private.
+
 ## 18 October 2026 — Online bows and arrow flight
 
 - Connected bow drawing, cancellation, firing and predicted arrow flight to the online stack.
