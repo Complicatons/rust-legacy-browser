@@ -2,6 +2,16 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Original status HUD and bitmap text
+
+- Restored the original status graphics, bitmap font, warning icons and dark belt skin from static asset data.
+- Connected health/food bars and warning plaques to the native thresholds, including radiation poisoning rather than any radiation exposure.
+- Verified the status display through online and offline RTX 4090 gameplay checks. All 215 automated checks pass.
+
+![Original status graphics and bitmap text in the online prototype](../assets/screenshots/original-hud-status.png)
+
+Actual local mock-server capture, 18 October 2026. This is the first HUD restoration pass; inventory-window layout, camera effects and other presentation details are still unfinished. Development controls remain visible. Real Legacy server compatibility remains unverified.
+
 ## 18 October 2026 — Remote torches, melee and door codes
 
 - Added server-driven remote torch flame/light and the original melee swing animation, with cleanup when an item is extinguished or removed.
