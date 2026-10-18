@@ -2,6 +2,14 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Weapon and camera sway
+
+- Added the original bounded camera sway and weapon pivot movement, including the transition to steady aiming.
+- Kept gameplay aim separate from the temporary rendering effect; verified that drawing restores the true eye direction.
+- All 219 automated checks pass. Six original viewmodels, torch, bow and firearm actions pass on the RTX 4090, along with the full online combat and placement regression.
+
+Head bob, remaining weapon effects and interface work are still in progress. Results use the project's own local server mock; real Legacy server compatibility remains unverified.
+
 ## 18 October 2026 — Original status HUD and bitmap text
 
 - Restored the original status graphics, bitmap font, warning icons and dark belt skin from static asset data.
