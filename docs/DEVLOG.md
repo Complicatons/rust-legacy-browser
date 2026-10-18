@@ -2,6 +2,16 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Inventory cells and armour panel
+
+- Restored the original inventory cell graphics, bitmap counts, ammunition labels, attachment-slot indicators and item-condition colours.
+- Added the separate armour panel with original slot labels and protection totals. The bag follows the recovered six-by-five grid; the interface reflows for narrow screens.
+- All 250 automated checks pass. GPU checks cover equipping a real item, readable tinted text, desktop/narrow layouts and the existing online inventory, loot, crafting and server-confirmation behaviour.
+
+![Original inventory cells and armour effects in the browser prototype](../assets/screenshots/inventory-armor.png)
+
+Local prototype capture, 18 October 2026. This restores part of the interface; window arrangement is adapted and the crafting controls, draggable windows, menus and bespoke container layouts remain unfinished. Online checks use the project's own server mock; real Legacy server compatibility remains unverified.
+
 ## 18 October 2026 — Movement and camera reactions
 
 - Connected the original movement curves and spring response to walking, strafing and changes in speed, including the weapon's separate motion and reduced strength while aiming.
