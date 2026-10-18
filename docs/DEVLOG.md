@@ -2,6 +2,17 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Batch crafting and blueprint controls
+
+- Added the original blueprint categories, quantity shortcuts, ingredient totals and crafting progress controls.
+- Offline batches consume materials at completion and keep them on cancellation. Workbenches speed crafting and required jobs stop when the player leaves.
+- Online quantity requests and cancellation wait for server confirmation; browser timers cannot grant items.
+- All 260 automated checks pass, including batch save/resume timing. RTX 4090 checks cover actual batch completion, cancellation and desktop/narrow presentation, plus online paused-job and inventory confirmation checks.
+
+![A two-item batch using the restored blueprint controls](../assets/screenshots/batch-crafting.png)
+
+Local prototype capture, 18 October 2026. Window placement and parts of the ingredient display remain adapted. Full interface/animation fidelity and real Legacy server compatibility are unfinished; online checks use the project's own server mock.
+
 ## 18 October 2026 — Inventory cells and armour panel
 
 - Restored the original inventory cell graphics, bitmap counts, ammunition labels, attachment-slot indicators and item-condition colours.
