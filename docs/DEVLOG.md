@@ -2,6 +2,14 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Original bullet trails and impact effects
+
+- Replaced the temporary bullet lines with the recovered tracer mesh, texture, fade and travel settings.
+- Added original impact particles, sounds and bullet-hole decals, including moving-object attachment and timed cleanup. Silenced shots keep their impact effects while hiding the tracer.
+- All 286 automated checks pass. Focused RTX 4090 checks cover the visible tracer, impacts, persistent decals, silenced collisions and cleanup; the full online mock-server and offline gameplay regressions also pass.
+
+Surface selection across the entire island and character-specific impacts remain unfinished. Exact shader/particle parity and real Legacy server compatibility still need final-phase validation; current online checks use the project's own server mock.
+
 ## 18 October 2026 — Layered player poses and turning
 
 - Player animations now compose by bone property and layer, preserving walking legs beneath upper-body aiming poses.
