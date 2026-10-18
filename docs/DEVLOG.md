@@ -2,6 +2,14 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Layered player poses and turning
+
+- Player animations now compose by bone property and layer, preserving walking legs beneath upper-body aiming poses.
+- Added the recovered turn-speed limit, smooth direction changes across angle wraparound and independent additive pose ordering.
+- All 279 automated checks pass, including tests using the original rifle clips. Focused RTX 4090 checks and the full online mock-server regression pass; the latter now checks that a remote melee swing actually moves the hand and weapon.
+
+Exact original-engine blending and some animation-event interactions still need comparison during the final testing phase. Real Legacy server compatibility remains unverified; current online checks use the project's own server mock.
+
 ## 18 October 2026 — Player animation transitions
 
 - Added separate transitions for equipment, crouching, movement and jumping, using recovered timing settings.
