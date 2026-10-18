@@ -2,6 +2,17 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Online bows and arrow flight
+
+- Connected bow drawing, cancellation, firing and predicted arrow flight to the online stack.
+- Verified player hits and expiring arrows through the server mock. Arrow counts change only when the server confirms them.
+- Added arrows that follow the moving target they hit and clean up when the old character is replaced.
+- All 195 automated checks pass. RTX 4090 checks cover online bow actions, offline bow damage and the original held-item models.
+
+![Original hunting bow drawn in the online prototype](../assets/screenshots/online-bow-draw.png)
+
+Actual local mock-server capture, 18 October 2026. The interface is unfinished. Online throwables, placement, remote attack presentation and real Legacy server compatibility remain outstanding. Implementation and recovered assets stay private.
+
 ## 18 October 2026 — Online melee, gathering and audio
 
 - Connected melee swings and delayed hit reports to the online stack, using original tool timing and client tree limits.

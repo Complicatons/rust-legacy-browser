@@ -29,7 +29,7 @@ The private development history records work on:
 | Items & crafting | Inventory, loot, recipes and item interactions; online inventory/crafting UI checked through the mock server |
 | Player-made world | Building pieces, placement, doors, deployables and sleeping bags |
 | Camp life | Campfires, cooking, furnaces, storage and workbenches |
-| Combat | Local firearms, bows, grenades and explosives; online firearm/melee requests, gathering and animated hit regions checked through the mock server |
+| Combat | Local firearms, bows, grenades and explosives; online firearm/melee/bow requests, gathering and animated hit regions checked through the mock server |
 | Player presentation | Original first-person models/clips, remote-player clothing and unarmed movement animations |
 | Online prototype | Website/gateway/adapter join through a mock server, server buildings/resources/fire effects and wildlife presentation |
 | Environment | Recovered day/night clock, changing lighting, fire warmth and radiation zones |
