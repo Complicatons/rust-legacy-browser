@@ -4,7 +4,7 @@ Maintained by [Complicatons](https://github.com/Complicatons). Entries below sum
 
 ## 18 October 2026 — Remote weapons and original muzzle effects
 
-- Connected other players' gunshot sounds, tracers and bow arrows to server messages. Silenced gunfire uses its quieter sound and suppresses the visible flash.
+- Connected other players' gunshot sounds, tracers and bow arrows to server messages. Remote silenced gunfire uses its quieter sound and suppresses the visible flash.
 - Restored the original muzzle flash and barrel smoke for local and remote firearms, including the brief light and cleanup after firing or switching weapons.
 - Smoke stays where it was emitted as the weapon moves. Remote arrows remain visual: damage and inventory stay server-controlled.
 - All 227 automated checks pass. The full online interaction check and six-viewmodel gameplay check pass on the RTX 4090, with captures reviewed.
