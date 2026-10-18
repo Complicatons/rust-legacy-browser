@@ -22,3 +22,4 @@
 !docs/*.md
 !provenance/
 !provenance/*.json
+!assets/screenshots/original-muzzle-flash.png
