@@ -2,6 +2,17 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Movement and camera reactions
+
+- Connected the original movement curves and spring response to walking, strafing and changes in speed, including the weapon's separate motion and reduced strength while aiming.
+- Added stacked gunshot and damage camera reactions, with explicit server fall-impact messages affecting only the local player's view.
+- Rendering restores the true camera position and direction after drawing. The effects leave gameplay aim and server-controlled health unchanged.
+- All 245 automated checks pass. RTX 4090 checks cover real movement, jumping, aiming, shots, damage and settling back to rest. Full online, offline gameplay and first-person attachment checks also pass.
+
+![Original rifle and hands during the movement check](../assets/screenshots/movement-camera.png)
+
+Local browser prototype capture, 18 October 2026. A still image shows the rendered weapon; motion was checked through sampled gameplay frames. Full engine parity, remaining interface/animation work and fall-injury details are unfinished. Development controls remain visible. Online checks use the project's own server mock; compatibility with real Legacy servers remains unverified.
+
 ## 18 October 2026 — Weapon attachments and light controls
 
 - Restored the original holo sight, red reticle and silencer, including sight alignment and the altered muzzle position.
