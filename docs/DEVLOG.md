@@ -2,6 +2,15 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Online melee, gathering and audio
+
+- Connected melee swings and delayed hit reports to the online stack, using original tool timing and client tree limits.
+- Verified ore and tree interactions through the server mock. Gathering rewards appear only when the server updates inventory; the browser does not grant items or apply damage itself.
+- Recovered the original swing and wood-impact sounds. Fixed audio activation from normal player input and support for the original uncompressed audio files.
+- All 192 automated checks pass. Online gameplay and browser audio decoding were verified on the RTX 4090.
+
+These are local prototype results through our own server mock. Real Legacy server compatibility, online bows/throwables/placement, remote attack animations and original impact effects still need work.
+
 ## 17 October 2026 — Online firearms and animated hit regions
 
 - Connected browser firearm shots and reload requests to the online connection stack. Recoil, aiming and original first-person animations run in the browser; inventory counts and damage remain server-owned.
