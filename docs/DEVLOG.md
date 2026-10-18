@@ -2,6 +2,19 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 18 October 2026 — Weapon attachments and light controls
+
+- Restored the original holo sight, red reticle and silencer, including sight alignment and the altered muzzle position.
+- Added flashlight and laser effects for local and remote players, with the original F/G controls and cleanup when weapons change.
+- Connected attachment installation to inventory combining. Online installation waits for the server's confirmation; offline weapons retain their available slots and installed mods across saves.
+- All 235 automated checks pass. Full online, offline gameplay and viewmodel checks pass on the RTX 4090. Reviewed the aiming and night captures, with an image comparison confirming visible flashlight illumination.
+
+![Original holo sight aligned for aiming](../assets/screenshots/weapon-attachments.png)
+
+![Flashlight illumination and laser hit dot at night](../assets/screenshots/weapon-mods-night.png)
+
+Local browser prototype captures, 18 October 2026. Lighting and laser rendering still approximate parts of the original shaders. Head bob, animation, remaining interface work and other effects are unfinished. Development controls remain visible. Real Legacy server compatibility remains unverified; online checks use the project's own server mock.
+
 ## 18 October 2026 — Remote weapons and original muzzle effects
 
 - Connected other players' gunshot sounds, tracers and bow arrows to server messages. Remote silenced gunfire uses its quieter sound and suppresses the visible flash.
