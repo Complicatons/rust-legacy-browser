@@ -2,6 +2,14 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 19 October 2026 — Surface-specific impacts
+
+- Connected the original flesh, wood and metal impact assignments to players, wildlife and objects.
+- Terrain now selects its impact surface from the original texture weights; ordinary unassigned island scenery keeps the original default effect.
+- All 292 automated checks pass. Focused RTX 4090 checks verify flesh/wood/metal effects and terrain selection against the source texture on the GPU. Full online mock-server and offline gameplay regressions also pass.
+
+Exact original-engine particle/shader parity and real Legacy server compatibility remain for final-phase validation. Ragdoll physics and the remaining interface interactions are next.
+
 ## 18 October 2026 — Original bullet trails and impact effects
 
 - Replaced the temporary bullet lines with the recovered tracer mesh, texture, fade and travel settings.
