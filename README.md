@@ -12,37 +12,53 @@ This project aims to bring **Rust Legacy into a modern browser**, preserving its
 
 This repository is the project's public development journal: real prototype screenshots, dated milestones, architectural plans and a roadmap. The implementation is maintained privately. **There is no public playable release yet**, and compatibility with existing Legacy servers has not been demonstrated.
 
-<p align="center"><a href="docs/DEVLOG.md">Development journal</a> · <a href="docs/ROADMAP.md">Roadmap</a> · <a href="docs/ARCHITECTURE.md">Accounts & servers</a> · <a href="docs/PROJECT-ORIGIN.md">Project origin</a></p>
+<p align="center"><a href="docs/DEVLOG.md">Development journal</a> · <a href="docs/SCREENSHOTS.md">Screenshots</a> · <a href="docs/ROADMAP.md">Roadmap</a> · <a href="docs/ARCHITECTURE.md">Accounts & servers</a> · <a href="docs/PROJECT-ORIGIN.md">Project origin</a></p>
 
-## Inside the prototype
+## Current build — 19 October 2026
 
-![The original island environment running in the local browser prototype](assets/screenshots/compound.png)
+![Original island compound in the current desktop browser prototype](assets/screenshots/2026-10-19/island-compound.png)
 
-*Actual local prototype, 17 October 2026. Development controls are visible; the interface is unfinished.*
+*Actual desktop browser capture. Development controls remain visible; the final menu and visual presentation are unfinished.*
 
-The private development history records work on:
+The core survival prototype now runs locally in a desktop browser. Recent work rebuilt the inventory around the original separate windows, added item dragging and details, physical dropped-item bags, clothed ragdolls, surface-specific bullet effects, and saved FOV and fullscreen controls.
 
-| Area | Local prototype work |
-| :--- | :--- |
-| Original world | Client scene import, terrain, rock formations, collision and doors |
-| Survival | Gathering, wildlife, hunting, hunger, bleeding, food, medical items, night cold and radiation |
-| Items & crafting | Inventory, loot, recipes and item interactions; online inventory/crafting UI checked through the mock server |
-| Player-made world | Building pieces, placement, doors, deployables and sleeping bags |
-| Camp life | Campfires, cooking, furnaces, storage and workbenches |
-| Combat | Local firearms, bows, grenades and explosives; online firearm/melee/bow requests, gathering and animated hit regions checked through the mock server |
-| Player presentation | Original first-person models/clips, remote-player clothing and unarmed movement animations |
-| Online prototype | Website/gateway/adapter join through a mock server, server buildings/resources/fire effects and wildlife presentation |
-| Environment | Recovered day/night clock, changing lighting, fire warmth and radiation zones |
+| Area | Implemented in the prototype | Still to complete or prove |
+| :--- | :--- | :--- |
+| Original island | Recovered terrain, buildings, trees, rocks, collision and doors | Lighting, sky, water, shader and overall visual parity |
+| Survival and camp life | Gathering, wildlife, hunger, bleeding, medical items, radiation, warmth, cooking, storage and respawn | Remaining behaviour differences and final gameplay comparison |
+| Inventory and crafting | Separate desktop windows, armour effects, item details/dragging, original container layouts, batch crafting and dropped-item pickup | Remaining item actions and exact interface polish |
+| Building and combat | Structures, placement, deployables, firearms, bows, grenades, explosives and weapon attachments | Remaining physics, animation and effect fidelity |
+| Player presentation | Original first-person models/clips, remote clothing/aiming, ragdolls and death camera | Original-engine motion and transition comparison |
+| Desktop controls | Mouse capture/release, optional fullscreen, saved 60–120 FOV slider and synchronized F1 console command | Complete original menu, Play → server chooser → loading → game flow |
+| Multiplayer | Website-to-game join and server-owned state exercised through the project mock stack | Real Legacy server compatibility and browser/desktop shared-world testing |
+| Accounts and directory | Local sign-in/account flows, stable identity, server registration and one-use join tickets | Production provider configuration, hosting and operator pilot |
 
-These are development milestones, not a claim of complete fidelity or release readiness. Multiplayer, native server compatibility, security and browser performance still need substantial validation.
+**Verified development checkpoint:** 306 automated tests pass, along with focused RTX 4090 checks for inventory, crafting, FOV, weapon zoom, mouse capture and fullscreen. Full offline gameplay and online mock-stack browser regressions also pass. This is development evidence, not a completed port or a public release.
 
 <table>
 <tr>
-<td width="50%"><img src="assets/screenshots/building.png" alt="Wooden building frame in the local prototype"></td>
-<td width="50%"><img src="assets/screenshots/inventory.png" alt="Inventory and original item presentation in the local prototype"></td>
+<td width="50%"><img src="assets/screenshots/2026-10-19/desktop-inventory.png" alt="Rebuilt separate desktop inventory, armor and crafting windows"></td>
+<td width="50%"><img src="assets/screenshots/2026-10-19/grenade-explosion.png" alt="Grenade explosion during a browser mock-server test"></td>
 </tr>
-<tr><td align="center">Building in the original environment</td><td align="center">Inventory and item interactions</td></tr>
+<tr><td align="center">Rebuilt original-style desktop inventory</td><td align="center">Combat effects in the online mock test</td></tr>
+<tr>
+<td><img src="assets/screenshots/2026-10-19/dropped-item.png" alt="Dropped item bag with a pickup prompt"></td>
+<td><img src="assets/screenshots/2026-10-19/options.png" alt="Options with saved field of view, fullscreen and mouse release settings"></td>
+</tr>
+<tr><td align="center">Dropped items and pickup</td><td align="center">FOV, fullscreen and mouse controls</td></tr>
 </table>
+
+**[View the complete latest gallery: 21 reviewed screenshots →](docs/SCREENSHOTS.md)**
+
+## What we are building next
+
+1. Reconstruct the original opening screen, Play button, server chooser and loading flow; replace the developer explorer interface in the player experience.
+2. Finish desktop visual fidelity across inventory, HUD, weapons, animations, effects, lighting, sky and water.
+3. Complete remaining item interactions and gameplay/physics differences, then address performance and browser bugs.
+4. Run the final isolated real-server tests, including browser and desktop players sharing a server, persistent identity, reconnects and saves.
+5. Configure the hosting/operator pilot and release only a documented, tested supported experience.
+
+There is no announced release date. See the [detailed roadmap](docs/ROADMAP.md) for the remaining work and validation boundaries.
 
 ## Where this is going
 

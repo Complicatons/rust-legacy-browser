@@ -1,26 +1,63 @@
 # Roadmap
 
-This is a direction of travel, not a release schedule. No launch date has been announced.
+Updated 19 October 2026. This is a desktop browser game. Preserving the original Rust Legacy appearance and behaviour is the priority. No launch date or completion percentage has been announced.
 
-| Stage | Status | Scope |
-| :--- | :--- | :--- |
-| World and survival foundation | Local prototype | Original environment, collision, doors, gathering, wildlife and survival systems |
-| Building and player interactions | Local prototype | Structures, deployables, items, camp life and respawn; continued fidelity testing |
-| Combat and environment | Local prototype | Firearms, bows, explosives, armour, day/night cycle, night cold and original radiation zones; visual and animation fidelity still incomplete |
-| Browser polish and validation | In progress / remaining | Interface, audio, visual parity, loading, performance and broader browser testing |
-| Multiplayer compatibility | Implemented / mock-tested | Connection stack and online models/state checked through a mock server; real Legacy server compatibility remains unverified |
-| Accounts and server directory | Implemented / local validation | Website sign-in, stable identities, server enrolment and one-use join tickets; production identity providers/hosting need configuration |
-| Hosting pilot | Planned | One controlled server, persistence, reconnects, backups and operational monitoring |
-| Community server support | Planned | Versioned bridge packages, operator documentation, registration and compatibility checks |
-| Public availability | Future milestone | Distribution arrangements, reliable hosting and a clearly documented supported experience |
+## Working prototype foundation
 
-## What must be demonstrated before a multiplayer release
+| Area | Current evidence |
+| :--- | :--- |
+| Original world and survival | Local browser world, collision, doors, gathering, wildlife, survival, cooking and respawn |
+| Building and combat | Local structures/deployables, placement, firearms, bows, explosives, armour and attachments; online requests/state exercised against the project mock |
+| Inventory and crafting | Rebuilt separate desktop windows, drag/move, item details, armour effects, original container cell arrangements, batch crafting and server-confirmed inventory changes |
+| Dropped items and death | Local physical bags/pickup, server pickup presentation routes, clothed ragdolls and death-camera presentation; exact original physics remains unproven |
+| Effects and controls | Surface-specific impacts, original tracer/decal presentation, FOV slider/F1 synchronization, mouse capture/release and fullscreen |
+| Accounts and connections | Website/account/directory and browser-to-bridge join flows tested locally with a project mock server |
 
-- Browser clients can join, interact and reconnect reliably.
-- The server validates player actions and persists player/world state.
-- The same account maps to the same player when the browser or IP changes.
-- Join credentials cannot be reused on a different server or impersonate another player.
-- Server operators can install, update, back up and restore the supported stack.
-- The release clearly states supported browsers, server versions and known limitations.
+The latest recorded checkpoint has 306 passing automated tests, focused hardware-GPU browser checks, and passing full offline/online mock-stack regressions. Passing these checks does not establish native-server compatibility or exact original-engine fidelity.
 
-Original Legacy server compatibility remains a research and validation task. A bridge is part of the proposed design; its existence alone would not establish compatibility with arbitrary online servers.
+## Remaining implementation — in priority order
+
+### 1. Original desktop entry flow
+
+- Reconstruct the original main-menu scene and layout, Play button, server chooser and loading screen.
+- Connect that flow to website sign-in and real participating-server listings without losing the account/join handling already built.
+- Replace the developer explorer panel in the player experience. Keep developer tools separate from normal play.
+- Ensure menus, mouse capture, fullscreen, loading failures and disconnects work together cleanly.
+
+### 2. Original appearance and presentation
+
+- Compare inventory, crafting, container windows, tooltips and HUD against original references; complete spacing, text and interaction polish.
+- Complete remaining player animation events/transitions and compare first-person and remote-player poses.
+- Improve lighting, sky, water, particles and shaders; current rendering is still an approximation in several areas.
+- Compare ragdoll motion, contacts, movement and death-camera details with the original in the final runtime phase.
+
+### 3. Remaining gameplay and browser work
+
+- Complete remaining original item actions, including the unfinished research/blueprint, split and unload interactions.
+- Resolve remaining melee/collision and other source-behaviour differences.
+- Extend online pickup checks through the complete mock stack; existing presentation/unit checks are not a substitute for that coverage.
+- Improve startup/loading, frame rate, memory use and long-session stability on a documented range of desktop hardware and browsers.
+- Continue fixing demonstrated bugs, including issues reported while trying the local demo.
+
+### 4. Final isolated native-server validation
+
+Do this after the implementation work above. Real Legacy server compatibility has **not** been demonstrated.
+
+- Join a controlled real server and verify authentication, spawn, movement, combat, inventory, crafting and building.
+- Verify browser and desktop players can share the same server/world and see consistent actions.
+- Test stable account identity, optional desktop-character linking, death/respawn, reconnects, saves and server wipes.
+- Check supported server versions and mods explicitly; do not label arbitrary servers as compatible.
+- Perform original-engine visual/behaviour comparisons in the isolated test environment.
+
+### 5. Hosting pilot and release preparation
+
+- Configure production identity providers and hosting; verify sessions, ticket expiry, server-authoritative actions and abuse controls.
+- Validate operator installation/update, backups, restore and monitoring on one controlled participating server.
+- Publish the supported browser/hardware/server requirements, known limitations and operator documentation.
+- Resolve distribution requirements before announcing public availability.
+
+## Intended player experience
+
+Browser players visit a website, sign in and join a verified participating server without installing a game client. Server owners install and operate the bridge. Linking an existing desktop character is optional. Each server retains its own world, inventory, progression and wipe policy.
+
+[Latest screenshots](SCREENSHOTS.md) · [Development journal](DEVLOG.md) · [Project overview](../README.md)

@@ -2,6 +2,16 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 19 October 2026 — Current-build gallery and remaining work
+
+The public front page now reflects the current desktop prototype, with a [21-image gallery](SCREENSHOTS.md) covering the island, rebuilt inventory/crafting, camp life, dropped-item pickup, weapons, remote players, building previews, day/night, Options and console. Focused interface/physics/rendering test scenes are identified as such. Screenshots show the actual build, including its unfinished developer interface.
+
+The [roadmap](ROADMAP.md) now lists the remaining work in priority order: original menu/server-browser/loading flow, original visual and animation fidelity, remaining gameplay/item actions, browser performance and bugs, final isolated real-server tests, then the hosting pilot.
+
+Dropped items now have physical bags and local pickup/partial-stack handling; server presentation routes have unit coverage, with a dedicated complete online pickup check still to do. The demo's fly-mode mouse-capture restriction was also removed; capture now works in both demo modes, with a visible message if a browser blocks it.
+
+306 automated tests pass. Full offline gameplay and online mock-stack GPU regressions passed at the preceding checkpoint; the focused GPU control repeat also passes after the demo capture fix. Real Legacy compatibility remains unverified, and the original menu reconstruction is unfinished.
+
 ## 19 October 2026 — Desktop interface and player controls
 
 - Rebuilt the inventory around the original separate Armor, Inventory and Crafting windows, with the belt at the bottom. Desktop fidelity is the priority; mobile checks have been replaced with desktop checks.
