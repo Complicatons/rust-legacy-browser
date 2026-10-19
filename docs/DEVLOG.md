@@ -2,6 +2,12 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 19 October 2026 — Original menu background recovery
+
+Recovered and rendered the original opening scene: garage, fire barrel, grass, original camera/lights, bear skin and animation data, and fire/smoke particles. The focused RTX 4090 check passes scene loading, animation progression, finite skinned vertices, particles, resize and cleanup. Review caught and corrected opaque grass rendering. The [gallery](SCREENSHOTS.md) now contains 22 captures, including this clearly labelled rendering check.
+
+This scene is not yet connected to the normal opening/menu/server-browser/loading flow. Original shaders, light styling and menu audio also remain unfinished. The live embedded demo reported blocked mouse capture; use the local demo in a normal Edge or Chrome tab when the embedded browser refuses capture.
+
 ## 19 October 2026 — Current-build gallery and remaining work
 
 The public front page now reflects the current desktop prototype, with a [21-image gallery](SCREENSHOTS.md) covering the island, rebuilt inventory/crafting, camp life, dropped-item pickup, weapons, remote players, building previews, day/night, Options and console. Focused interface/physics/rendering test scenes are identified as such. Screenshots show the actual build, including its unfinished developer interface.

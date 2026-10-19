@@ -48,7 +48,7 @@ The core survival prototype now runs locally in a desktop browser. Recent work r
 <tr><td align="center">Dropped items and pickup</td><td align="center">FOV, fullscreen and mouse controls</td></tr>
 </table>
 
-**[View the complete latest gallery: 21 reviewed screenshots →](docs/SCREENSHOTS.md)**
+**[View the complete latest gallery: 22 reviewed screenshots →](docs/SCREENSHOTS.md)**
 
 ## What we are building next
 

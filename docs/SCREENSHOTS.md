@@ -131,3 +131,9 @@ Focused physics/rendering test scene after a clothed ragdoll settles. Browser ph
 ![Bullet impact check](../assets/screenshots/2026-10-19/bullet-impact-check.png)
 
 Focused rendering test scene showing a recovered bullet-hole decal. Full surface-specific impacts and timed cleanup have automated coverage.
+
+## Original menu background — rendering check
+
+![Recovered original menu background scene](../assets/screenshots/2026-10-19/original-menu-background-check.png)
+
+The original garage, fire barrel, grass and camera in a focused browser scene. The scene also contains its original bear skin and animation data. This is work toward the opening screen; the Play/server-browser/loading flow is not yet connected. Original shader, lighting-style and audio fidelity remain unfinished.
