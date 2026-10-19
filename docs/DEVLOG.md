@@ -2,6 +2,16 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 19 October 2026 — Desktop interface and player controls
+
+- Rebuilt the inventory around the original separate Armor, Inventory and Crafting windows, with the belt at the bottom. Desktop fidelity is the priority; mobile checks have been replaced with desktop checks.
+- Added a saved Field of View slider, synchronized with the original F1 console command. Weapon aiming retains its zoom.
+- Added click-to-capture mouse control, Escape or an assigned release key, and optional fullscreen.
+- All 306 automated checks pass. RTX 4090 checks verify settings persistence, weapon zoom, mouse capture/release, fullscreen, inventory interactions and crafting. The online project mock-stack regression also passes.
+- Continued recovering the original opening-screen assets for the Play, server-browser and loading flow. That reconstruction is still in progress.
+
+Original-engine visual comparison and real Legacy server compatibility remain unfinished. The mock-stack checks do not establish native-server compatibility.
+
 ## 19 October 2026 — Inventory interactions
 
 - Added visible item details with original icons, text and weapon bars, plus dragging between inventory slots and containers.
