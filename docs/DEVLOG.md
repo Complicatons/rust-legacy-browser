@@ -2,6 +2,14 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 19 October 2026 — Ragdolls and death presentation
+
+- Added physical ragdolls using the original body shapes, joints, sleep pose and clothed player models.
+- Server-confirmed player and sleeper deaths transfer into the physical pose; ordinary player removal creates no corpse. Local death presentation follows the head and restores the camera on respawn.
+- All 299 automated checks pass. RTX 4090 checks cover settling, clothing, lifetime, camera transfer and cleanup. The full online mock-server regression verifies death routing and duplicate-message handling.
+
+Browser physics uses a different engine, so exact original motion and contact behaviour remain comparison gaps. Remaining inventory interactions are next; real Legacy server compatibility stays unproven until the final isolated tests.
+
 ## 19 October 2026 — Surface-specific impacts
 
 - Connected the original flesh, wood and metal impact assignments to players, wildlife and objects.
