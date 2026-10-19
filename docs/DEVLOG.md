@@ -2,6 +2,15 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 19 October 2026 — Inventory interactions
+
+- Added visible item details with original icons, text and weapon bars, plus dragging between inventory slots and containers.
+- Online moves wait for server confirmation; replaced inventory snapshots cancel stale drags.
+- Added movable desktop panels, original fire/repair cell arrangements, and coloured ingredient requirements with the original status icons.
+- All 299 automated checks pass. Focused RTX checks cover pointer gestures and narrow screens; full online mock-server and offline gameplay regressions also pass.
+
+Exact original window placement and dropped-item interactions remain in progress. Native server compatibility still needs the final isolated tests.
+
 ## 19 October 2026 — Ragdolls and death presentation
 
 - Added physical ragdolls using the original body shapes, joints, sleep pose and clothed player models.
