@@ -18,9 +18,9 @@ This repository is the public development journal: real screenshots, progress an
 
 *The original warehouse compound, rendered in the browser (20 October 2026 build).*
 
-<p align="center"><a href="assets/video/gameplay-tour-2026-10-20.mp4"><img src="assets/video/tour-preview.gif" alt="Flying over the island in the browser (preview of the gameplay video)" width="560"></a></p>
+<p align="center"><a href="assets/video/gameplay-tour-2026-10-20-v2.mp4"><img src="assets/video/tour-preview.gif" alt="Flying over the island in the browser (preview of the gameplay video)" width="560"></a></p>
 
-<p align="center"><a href="assets/video/gameplay-tour-2026-10-20.mp4"><b>▶ Download the 90-second gameplay video (MP4, 9 MB)</b></a> — flying over the island, weapons, wildlife, building, a campfire at night and an airdrop.</p>
+<p align="center"><a href="assets/video/gameplay-tour-2026-10-20-v2.mp4"><b>▶ Download the 3-minute gameplay video (MP4, 45 MB)</b></a>: the original menus, gathering, crafting, building, guns, hunting, wildlife, raiding, night time and airdrops, with in-game sound.</p>
 
 <table>
 <tr>
