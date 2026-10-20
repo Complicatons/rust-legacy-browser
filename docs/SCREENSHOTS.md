@@ -8,7 +8,7 @@
 
 Images are saved as high-quality JPEG to keep the page fast.
 
-**[▶ Download the 3½-minute gameplay video (MP4)](../assets/video/gameplay-tour-2026-10-20-v3.mp4)**
+**[▶ Download the 3½-minute gameplay video (MP4)](../assets/video/gameplay-tour-2026-10-20-v4.mp4)**
 
 [Project overview](../README.md) · [Roadmap](ROADMAP.md) · [Development journal](DEVLOG.md)
 
