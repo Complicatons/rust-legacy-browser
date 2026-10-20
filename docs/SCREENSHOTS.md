@@ -8,6 +8,8 @@
 
 Images are saved as high-quality JPEG to keep the page fast.
 
+**[▶ Watch the 90-second gameplay video](../assets/video/gameplay-tour-2026-10-20.mp4)**
+
 [Project overview](../README.md) · [Roadmap](ROADMAP.md) · [Development journal](DEVLOG.md)
 
 **Jump to:** [Main menu and server browser](#main-menu-and-server-browser) · [The island](#the-island) · [Weapons and tools](#weapons-and-tools) · [Wildlife](#wildlife) · [Airdrops](#airdrops) · [Survival, crafting and camp life](#survival-crafting-and-camp-life) · [Building and raiding](#building-and-raiding) · [Multiplayer](#multiplayer)

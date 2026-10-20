@@ -18,6 +18,8 @@ This repository is the public development journal: real screenshots, progress an
 
 *The original warehouse compound, rendered in the browser (20 October 2026 build).*
 
+<p align="center"><a href="assets/video/gameplay-tour-2026-10-20.mp4"><b>▶ Watch the 90-second gameplay video</b></a> — flying over the island, weapons, wildlife, building, a campfire at night and an airdrop.</p>
+
 <table>
 <tr>
 <td align="center" width="25%"><h2>76%</h2><sub>overall progress</sub></td>
