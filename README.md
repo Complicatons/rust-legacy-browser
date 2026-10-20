@@ -1,81 +1,109 @@
 <p align="center"><img src="assets/banner.svg" alt="Rust Legacy Browser — a browser port project by Complicatons" width="100%"></p>
 
 <p align="center">
-  <img alt="Status: local prototype" src="https://img.shields.io/badge/STATUS-LOCAL_PROTOTYPE-e96938?style=for-the-badge">
+  <img alt="Overall progress: 76%" src="https://img.shields.io/badge/PROGRESS-76%25-e96938?style=for-the-badge">
+  <img alt="Status: closed development" src="https://img.shields.io/badge/STATUS-CLOSED_DEVELOPMENT-242a30?style=for-the-badge">
   <img alt="Creator: Complicatons" src="https://img.shields.io/badge/CREATOR-Complicatons-242a30?style=for-the-badge">
-  <img alt="Documented development: October 2026" src="https://img.shields.io/badge/DEVELOPMENT-OCT_2026-242a30?style=for-the-badge">
 </p>
 
-<p align="center"><strong>The original island. The familiar survival experience. A browser as the destination.</strong></p>
+<p align="center"><strong>The original island. The familiar survival experience. Nothing to download.</strong></p>
 
-This project aims to bring **Rust Legacy into a modern browser**, preserving its original world and gameplay rather than designing a different survival game. Created and led by **[Complicatons](https://github.com/Complicatons)**, with AI-assisted development.
+**Rust Legacy, running in a modern browser.** This project brings back the original Rust Legacy world and gameplay rather than designing a new survival game. You open a web page and play. You don't need a launcher, a loader or an executable. Created and led by **[Complicatons](https://github.com/Complicatons)**, with AI-assisted development.
 
-This repository is the project's public development journal: real prototype screenshots, dated milestones, architectural plans and a roadmap. The implementation is maintained privately. **There is no public playable release yet**, and compatibility with existing Legacy servers has not been demonstrated.
+This repository is the public development journal: real screenshots, progress and the roadmap. The game's code is kept private.
 
-<p align="center"><a href="docs/DEVLOG.md">Development journal</a> · <a href="docs/SCREENSHOTS.md">Screenshots</a> · <a href="docs/ROADMAP.md">Roadmap</a> · <a href="docs/ARCHITECTURE.md">Accounts & servers</a> · <a href="docs/PROJECT-ORIGIN.md">Project origin</a></p>
+<p align="center"><a href="docs/SCREENSHOTS.md"><b>Screenshots</b></a> · <a href="docs/ROADMAP.md"><b>Roadmap</b></a> · <a href="docs/DEVLOG.md"><b>Development journal</b></a> · <a href="docs/PLAYERS-AND-SERVER-OWNERS.md"><b>Players & server owners</b></a></p>
 
-## Current build — 19 October 2026
+![The warehouse compound from the air, in the browser](assets/screenshots/2026-10-20/town-aerial.jpg)
 
-![Original island compound in the current desktop browser prototype](assets/screenshots/2026-10-19/island-compound.png)
-
-*Actual desktop browser capture. Development controls remain visible; the final menu and visual presentation are unfinished.*
-
-The core survival prototype now runs locally in a desktop browser. Recent work rebuilt the inventory around the original separate windows, added item dragging and details, physical dropped-item bags, clothed ragdolls, surface-specific bullet effects, and saved FOV and fullscreen controls.
-
-| Area | Implemented in the prototype | Still to complete or prove |
-| :--- | :--- | :--- |
-| Original island | Recovered terrain, buildings, trees, rocks, collision and doors | Lighting, sky, water, shader and overall visual parity |
-| Survival and camp life | Gathering, wildlife, hunger, bleeding, medical items, radiation, warmth, cooking, storage and respawn | Remaining behaviour differences and final gameplay comparison |
-| Inventory and crafting | Separate desktop windows, armour effects, item details/dragging, original container layouts, batch crafting and dropped-item pickup | Remaining item actions and exact interface polish |
-| Building and combat | Structures, placement, deployables, firearms, bows, grenades, explosives and weapon attachments | Remaining physics, animation and effect fidelity |
-| Player presentation | Original first-person models/clips, remote clothing/aiming, ragdolls and death camera | Original-engine motion and transition comparison |
-| Desktop controls | Mouse capture/release, optional fullscreen, saved 60–120 FOV slider and synchronized F1 console command | Complete original menu, Play → server chooser → loading → game flow |
-| Multiplayer | Website-to-game join and server-owned state exercised through the project mock stack | Real Legacy server compatibility and browser/desktop shared-world testing |
-| Accounts and directory | Local sign-in/account flows, stable identity, server registration and one-use join tickets | Production provider configuration, hosting and operator pilot |
-
-**Verified development checkpoint:** 306 automated tests pass, along with focused RTX 4090 checks for inventory, crafting, FOV, weapon zoom, mouse capture and fullscreen. Full offline gameplay and online mock-stack browser regressions also pass. This is development evidence, not a completed port or a public release.
+*The original warehouse compound, rendered in the browser (20 October 2026 build).*
 
 <table>
 <tr>
-<td width="50%"><img src="assets/screenshots/2026-10-19/desktop-inventory.png" alt="Rebuilt separate desktop inventory, armor and crafting windows"></td>
-<td width="50%"><img src="assets/screenshots/2026-10-19/grenade-explosion.png" alt="Grenade explosion during a browser mock-server test"></td>
+<td align="center" width="25%"><h2>76%</h2><sub>overall progress</sub></td>
+<td align="center" width="25%"><h2>614</h2><sub>automated tests passing</sub></td>
+<td align="center" width="25%"><h2>186</h2><sub>original items</sub></td>
+<td align="center" width="25%"><h2>8</h2><sub>original animals</sub></td>
 </tr>
-<tr><td align="center">Rebuilt original-style desktop inventory</td><td align="center">Combat effects in the online mock test</td></tr>
-<tr>
-<td><img src="assets/screenshots/2026-10-19/dropped-item.png" alt="Dropped item bag with a pickup prompt"></td>
-<td><img src="assets/screenshots/2026-10-19/options.png" alt="Options with saved field of view, fullscreen and mouse release settings"></td>
-</tr>
-<tr><td align="center">Dropped items and pickup</td><td align="center">FOV, fullscreen and mouse controls</td></tr>
 </table>
 
-**[View the complete latest gallery: 22 reviewed screenshots →](docs/SCREENSHOTS.md)**
+## Progress — 20 October 2026
 
-## What we are building next
+```text
+Overall   ███████████████░░░░░  76%
+```
 
-1. Reconstruct the original opening screen, Play button, server chooser and loading flow; replace the developer explorer interface in the player experience.
-2. Finish desktop visual fidelity across inventory, HUD, weapons, animations, effects, lighting, sky and water.
-3. Complete remaining item interactions and gameplay/physics differences, then address performance and browser bugs.
-4. Run the final isolated real-server tests, including browser and desktop players sharing a server, persistent identity, reconnects and saves.
-5. Configure the hosting/operator pilot and release only a documented, tested supported experience.
+| Area | Progress | Working now | Left to do |
+| :--- | :--- | :--- | :--- |
+| **Original world and graphics** | `█████████░` 90% | The original island with all its buildings, rocks and trees. Day/night sky, stars and moon, the original sea with reflections, original lighting and shaders, grass, shadows and six quality presets | Texture compression for faster loading; final side-by-side comparison with the original |
+| **Survival, gathering and wildlife** | `██████████` 95% | Gathering, 61 blueprints, crafting, hunger, bleeding, radiation, cold, cooking, research kits, loot crates. Chickens, rabbits, boar, stags, wolves, bears and mutants with the original AI | Small behaviour differences |
+| **Building and raiding** | `█████████░` 90% | Foundations to roofs, doors, code locks, storage, sleeping bags, decay, and raiding with grenades and C4 using the original damage rules | Final comparison against the original |
+| **Weapons and combat** | `█████████░` 88% | Rifles, pistols, shotguns, bows, hand cannon, grenades and C4. Sights, silencer, flashlight and laser. Recoil, muzzle flash, tracers, impacts, ragdolls and hit markers | Ragdoll joint limits; animation polish |
+| **Menus, HUD and social** | `█████████░` 92% | Original main menu, options, key rebinding, server browser and loading screen. Inventory windows, F1 console, chat, push-to-talk voice and name tags | Code-lock dialog styling; small UI polish |
+| **Online play** | `████████░░` 85% | The server controls inventory, crafting, building, combat, vitals, airdrops and wildlife. All of it is tested against our own test server | Testing against a real Legacy server (see below) |
+| **First real server** | `█░░░░░░░░░` 10% | The connection bridge between browser players and a Legacy server is built | Run it against a real server, then open the first PvP server |
+| **Website, accounts and server list** | `████▌░░░░░` 45% | Sign-in, a server directory and one-click join work locally. The new website is designed | Build and launch the new website |
+| **Anti-cheat and admin tools** | `█████▌░░░░` 55% | Server-side checks for wall shots, noclip, aim snapping and spam. Admin roles, bans and an audit log | Tuning with real players |
+| **Performance and release polish** | `█████░░░░░` 50% | Distance culling, tree LOD and stable frame pacing on a desktop GPU | A wider range of hardware and browsers; loading time |
 
-There is no announced release date. See the [detailed roadmap](docs/ROADMAP.md) for the remaining work and validation boundaries.
+*The percentages are the project's own estimates, weighted by how much each area matters for a playable public server.*
 
-## Where this is going
+## Screenshots
 
-The intended experience is straightforward: visit the website, sign in, browse community servers and join from the browser. Your stable account identity would let each server recognise you across sessions and IP changes. Each server would retain its own world, inventory and progression, subject to that server's wipe policy.
+**[See all screenshots, with labels →](docs/SCREENSHOTS.md)**
 
-**For the first release, server owners will need to install our browser connection package.** Browser players need a website account and no installed client; existing desktop players may optionally link their character to use that same server identity in the browser. Read [the guide for players and server owners](docs/PLAYERS-AND-SERVER-OWNERS.md) for the planned steps and requirements.
+<table>
+<tr>
+<td width="50%"><img src="assets/screenshots/2026-10-20/main-menu.jpg" alt="The original main menu"></td>
+<td width="50%"><img src="assets/screenshots/2026-10-20/server-browser.jpg" alt="The original server browser"></td>
+</tr>
+<tr><td align="center">The original main menu, in the browser</td><td align="center">Server browser</td></tr>
+<tr>
+<td><img src="assets/screenshots/2026-10-20/m4-holo-aim.jpg" alt="Aiming an M4 with a holo sight"></td>
+<td><img src="assets/screenshots/2026-10-20/bear.jpg" alt="A bear in the warehouse yard"></td>
+</tr>
+<tr><td align="center">M4 with holo sight</td><td align="center">Bear in the warehouse yard</td></tr>
+<tr>
+<td><img src="assets/screenshots/2026-10-20/coast-sunset.jpg" alt="Sunset over the original sea"></td>
+<td><img src="assets/screenshots/2026-10-20/airdrop-plane.jpg" alt="Airdrop plane overhead"></td>
+</tr>
+<tr><td align="center">Sunset over the original sea</td><td align="center">Airdrop plane</td></tr>
+<tr>
+<td><img src="assets/screenshots/2026-10-20/raid-grenade-doorway.jpg" alt="A doorway destroyed by a grenade"></td>
+<td><img src="assets/screenshots/2026-10-20/inventory-crafting.jpg" alt="Inventory, armor and crafting windows"></td>
+</tr>
+<tr><td align="center">Raiding</td><td align="center">Inventory, armor and crafting</td></tr>
+<tr>
+<td><img src="assets/screenshots/2026-10-20/options-fov-fps.jpg" alt="Options with the Field of View slider and FPS counter"></td>
+<td><img src="assets/screenshots/2026-10-20/in-game-fps-counter.jpg" alt="In game with the FPS counter on"></td>
+</tr>
+<tr><td align="center">Field of View slider (60–120) and FPS counter option</td><td align="center">FPS counter in game (top right)</td></tr>
+</table>
 
-The planned system combines a browser client, website accounts, a server directory and a bridge operated alongside each participating game server. Existing Legacy servers would need a compatible bridge and verified protocol support before browser players could join. [Read the proposed hosting design →](docs/ARCHITECTURE.md)
+## What happens next
 
-## Follow the work
+1. **First real-server test.** Connect browser players to a real Legacy server through the bridge and check every system end to end.
+2. **First PvP server.** Open a PvP server for the community, followed by an EU server.
+3. **Community decisions.** Wipe schedule, group limits and server rules are being decided with the players.
+4. **New website.** Accounts, server list, island maps and a wiki.
+5. **Polish.** Loading time, more hardware and browsers, and the remaining fidelity work.
 
-- **Watch** this repository for documentation and progress updates.
-- Read the [dated journal](docs/DEVLOG.md) and [delivery roadmap](docs/ROADMAP.md).
-- Use [issues](https://github.com/Complicatons/rust-legacy-browser/issues) for feedback and well-documented suggestions. Please read [the contribution guide](CONTRIBUTING.md) first.
+See the [roadmap](docs/ROADMAP.md) for detail.
 
-The first recorded development commits are dated **16 October 2026**. This public journal begins **17 October 2026**. [The origin record](docs/PROJECT-ORIGIN.md) identifies the private source snapshot behind this first publication without exposing its contents.
+## How it will work for players
+
+Visit the website, sign in, choose a server, play. Your account keeps your identity across sessions, so servers recognise you even when your IP changes. Each server keeps its own world, inventory and wipe schedule.
+
+Because the game runs in the browser, there is nothing to install. You don't need a third-party launcher or a modified client to join. [Guide for players and server owners →](docs/PLAYERS-AND-SERVER-OWNERS.md)
+
+## Follow the project
+
+- **Watch** this repository for updates.
+- Read the [development journal](docs/DEVLOG.md).
+- Use [issues](https://github.com/Complicatons/rust-legacy-browser/issues) for feedback and suggestions. Please read [the contribution guide](CONTRIBUTING.md) first.
+
+The first development commits are dated **16 October 2026**. This public journal started on **17 October 2026**. [Project origin →](docs/PROJECT-ORIGIN.md)
 
 ---
 
-**Unofficial community project.** Rust Legacy and its original content belong to their respective rights holders. This project is not affiliated with or endorsed by Facepunch. No original game files, recovered assets or server binaries are distributed here. See [rights and attribution](RIGHTS.md) and [publication policy](docs/PUBLICATION-POLICY.md).
+**Unofficial community project.** Rust Legacy and its original content belong to their respective rights holders. This project is not affiliated with or endorsed by Facepunch. No original game files, recovered assets or server binaries are distributed here. See [rights and attribution](RIGHTS.md) and the [publication policy](docs/PUBLICATION-POLICY.md).

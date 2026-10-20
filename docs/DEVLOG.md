@@ -2,6 +2,18 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 20 October 2026 — 76% and a new gallery
+
+Since the last update the port has moved from a prototype to most of the full game:
+
+- **Front end:** the original main menu, Options, server browser and loading screen are now how you enter the game. The developer explorer is gone from normal play.
+- **World:** time-of-day sky, the original sea, terrain trees with distance detail, original shaders and lighting, grass, sun shadows, six quality presets and post-processing.
+- **Gameplay:** chat, push-to-talk voice, airdrops, name tags, key rebinding, hit markers, research kits, the full item menu, the hand cannon, and raiding with the original damage rules.
+- **Polish:** the original F1 console and hold-E context menu, notices, original particles and lights, culling for distant objects, wildlife navigation, and character movement matching the original controller.
+- **Anti-cheat and admin:** server-side checks and admin tools.
+
+614 automated tests pass. The [gallery](SCREENSHOTS.md) has 49 new labelled screenshots, and the [roadmap](ROADMAP.md) now leads to the first real-server test and then a PvP server, followed by an EU server.
+
 ## 19 October 2026 — Original menu background recovery
 
 Recovered and rendered the original opening scene: garage, fire barrel, grass, original camera/lights, bear skin and animation data, and fire/smoke particles. The focused RTX 4090 check passes scene loading, animation progression, finite skinned vertices, particles, resize and cleanup. Review caught and corrected opaque grass rendering. The [gallery](SCREENSHOTS.md) now contains 22 captures, including this clearly labelled rendering check.
