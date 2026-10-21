@@ -12,7 +12,7 @@
 
 This repository is the public development journal: real screenshots, progress and the roadmap. The game's code is kept private.
 
-<p align="center"><a href="docs/SCREENSHOTS.md"><b>Screenshots</b></a> · <a href="docs/ROADMAP.md"><b>Roadmap</b></a> · <a href="docs/DEVLOG.md"><b>Development journal</b></a> · <a href="docs/PLAYERS-AND-SERVER-OWNERS.md"><b>Players & server owners</b></a></p>
+<p align="center"><a href="docs/SCREENSHOTS.md"><b>Screenshots</b></a> · <a href="docs/ROADMAP.md"><b>Roadmap</b></a> · <a href="docs/DEVLOG.md"><b>Development journal</b></a> · <a href="docs/PLAYERS-AND-SERVER-OWNERS.md"><b>Players & server owners</b></a> · <a href="docs/SERVER-FILE-SCANS.md"><b>Server file scans</b></a></p>
 
 ![The warehouse compound from the air, in the browser](assets/screenshots/2026-10-20/town-aerial.jpg)
 
@@ -110,4 +110,4 @@ The first development commits are dated **16 October 2026**. This public journal
 
 ---
 
-**Unofficial community project.** Rust Legacy and its original content belong to their respective rights holders. This project is not affiliated with or endorsed by Facepunch. No original game files, recovered assets or server binaries are distributed here. See [rights and attribution](RIGHTS.md) and the [publication policy](docs/PUBLICATION-POLICY.md).
+**Unofficial community project.** Rust Legacy and its original content belong to their respective rights holders. This project is not affiliated with or endorsed by Facepunch. No original game files, recovered assets or server binaries are distributed here. The original server files used for testing were security-checked: [server file scans](docs/SERVER-FILE-SCANS.md). See [rights and attribution](RIGHTS.md) and the [publication policy](docs/PUBLICATION-POLICY.md).
