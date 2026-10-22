@@ -1,4 +1,105 @@
-# Screenshots — 20 October 2026
+# Screenshots
+
+[Project overview](../README.md) · [Roadmap](ROADMAP.md) · [Development journal](DEVLOG.md) · [Full update history on the website](https://rustlegacy.co.uk/roadmap)
+
+**[▶ Download the 3½-minute gameplay video (MP4)](../assets/video/gameplay-tour-2026-10-20-v4.mp4)**
+
+## 21 & 22 October
+
+44 new screenshots from the browser port and the website. **"Test run"** marks captures from the automated checks. "Original server" shots are from the original 2014 server on the project's sealed-off cloud test machine.
+
+**Jump to:** [On the original server](#on-the-original-server) · [Solid rocks and moving like the original](#solid-rocks-and-moving-like-the-original) · [The original building preview](#the-original-building-preview) · [Guns, explosions and melee](#guns-explosions-and-melee) · [Inventory](#inventory) · [Faster loading, more browsers](#faster-loading-more-browsers) · [The website: rustlegacy.co.uk](#the-website-rustlegacycouk) · [Wiki guide pictures (taken in the browser port)](#wiki-guide-pictures-taken-in-the-browser-port) · [Tools for server owners](#tools-for-server-owners)
+
+### On the original server
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/native-gather.jpg" alt="Gathering sulfur ore with the Rock on the original 2014 server. Test bots' chat lines are on the left."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/native-inventory.jpg" alt="The inventory filled from the original server's own messages."></td></tr>
+<tr><td>Gathering sulfur ore with the Rock on the original 2014 server. Test bots' chat lines are on the left. <sub><b>Test run</b></sub></td><td>The inventory filled from the original server's own messages. <sub><b>Test run</b></sub></td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/original-server-belt.jpg" alt="The original server's starting Rock, Bandages and Torch on the belt."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/site-servers.jpg" alt="The website's server list, which the test server is joined from. &quot;Pilot EU&quot; is the project's test listing."></td></tr>
+<tr><td>The original server's starting Rock, Bandages and Torch on the belt. <sub><b>Test run</b></sub></td><td>The website's server list, which the test server is joined from. "Pilot EU" is the project's test listing.</td></tr></table>
+
+### Solid rocks and moving like the original
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/rock-top.jpg" alt="Standing on top of a rock, 39 m above the ground below."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/rock-slide.jpg" alt="Walking at an angle into a rock: you stop at its face and slide along it."></td></tr>
+<tr><td>Standing on top of a rock, 39 m above the ground below.</td><td>Walking at an angle into a rock: you stop at its face and slide along it.</td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/rock-formation.jpg" alt="Standing on a rock formation, which used to freeze the game."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/island-view.jpg" alt="The island from above, loaded from the new smaller files."></td></tr>
+<tr><td>Standing on a rock formation, which used to freeze the game.</td><td>The island from above, loaded from the new smaller files.</td></tr></table>
+
+### The original building preview
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/placement-wall.jpg" alt="A wall between two pillars: the original preview pulses green where it fits."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/placement-invalid.jpg" alt="A foundation that doesn't fit turns red."></td></tr>
+<tr><td>A wall between two pillars: the original preview pulses green where it fits.</td><td>A foundation that doesn't fit turns red.</td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/placement-box.jpg" alt="A storage box with its bouncing aim arrow."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/placement-c4.jpg" alt="An explosive charge aimed at a wall: the wall itself lights up."></td></tr>
+<tr><td>A storage box with its bouncing aim arrow.</td><td>An explosive charge aimed at a wall: the wall itself lights up.</td></tr></table>
+
+### Guns, explosions and melee
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/m4-aim-sights.jpg" alt="Aiming down the M4's sights: the gun drifts slightly, and the look speed drops, as in the original."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/explosion-flash.jpg" alt="An F1 grenade at night: the flash lights the ground and is gone a quarter of a second later."></td></tr>
+<tr><td>Aiming down the M4's sights: the gun drifts slightly, and the look speed drops, as in the original.</td><td>An F1 grenade at night: the flash lights the ground and is gone a quarter of a second later.</td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/metal-spark.jpg" alt="An M4 shot hitting a metal foundation at night: a tenth-of-a-second orange spark."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/near-plane-wall.jpg" alt="Standing against a warehouse wall: the camera adapts so the wall still draws."></td></tr>
+<tr><td>An M4 shot hitting a metal foundation at night: a tenth-of-a-second orange spark.</td><td>Standing against a warehouse wall: the camera adapts so the wall still draws.</td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/grenade-roll.jpg" alt="An F1 grenade bouncing and coming to rest on its side."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/melee-ground.jpg" alt="A crouched Rock swing at the meadow kicks up the original grass impact."></td></tr>
+<tr><td>An F1 grenade bouncing and coming to rest on its side. <sub><b>Test run</b></sub></td><td>A crouched Rock swing at the meadow kicks up the original grass impact. <sub><b>Test run</b></sub></td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/guide-grenade-blast.jpg" alt="An F1 grenade going off three seconds after the throw."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/guide-raid-blast.jpg" alt="An explosive charge going off on a wooden door."></td></tr>
+<tr><td>An F1 grenade going off three seconds after the throw.</td><td>An explosive charge going off on a wooden door.</td></tr></table>
+
+### Inventory
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/rpos-scroll-craft.jpg" alt="The crafting list scrolled with the wheel: the original scroll bar, the row under the mouse lit."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/rpos-craft-hover.jpg" alt="Pointing at Craft turns it the original bright green."></td></tr>
+<tr><td>The crafting list scrolled with the wheel: the original scroll bar, the row under the mouse lit. <sub><b>Test run</b></sub></td><td>Pointing at Craft turns it the original bright green. <sub><b>Test run</b></sub></td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/rpos-scroll-crate.jpg" alt="A full box scrolled to the bottom, with its own close button lit red."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/rpos-craft.jpg" alt="Crafting Wood Planks: the click taps and the craft sound starts."></td></tr>
+<tr><td>A full box scrolled to the bottom, with its own close button lit red. <sub><b>Test run</b></sub></td><td>Crafting Wood Planks: the click taps and the craft sound starts.</td></tr></table>
+
+### Faster loading, more browsers
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/load-menu.jpg" alt="The original menu, now up in under 6 seconds on a first visit."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/load-in-world.jpg" alt="In the world after a join that now takes about 3 seconds on a return visit."></td></tr>
+<tr><td>The original menu, now up in under 6 seconds on a first visit.</td><td>In the world after a join that now takes about 3 seconds on a return visit.</td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/firefox-island.jpg" alt="The island in Firefox, in walk mode with the Rock in hand."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/fullscreen-play.jpg" alt="Crouch-walking with Ctrl+W held, in fullscreen: the tab no longer closes."></td></tr>
+<tr><td>The island in Firefox, in walk mode with the Rock in hand. <sub><b>Test run</b></sub></td><td>Crouch-walking with Ctrl+W held, in fullscreen: the tab no longer closes.</td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/animals-walking.jpg" alt="A boar and a stag walking, their animations loaded from the new compact files."></td></tr>
+<tr><td>A boar and a stag walking, their animations loaded from the new compact files.</td></tr></table>
+
+### The website: rustlegacy.co.uk
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/site-launch.jpg" alt="The launch page: leave your email or join the Discord."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/share-launch.jpg" alt="The preview card when the launch link is shared."></td></tr>
+<tr><td>The launch page: leave your email or join the Discord.</td><td>The preview card when the launch link is shared.</td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/map-modern-compound.jpg" alt="The Warehouse Compound on the detailed island map, with crate spots and radiation."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/map-modern-coast.jpg" alt="The east coast on the island map: cliffs, shallows and surf."></td></tr>
+<tr><td>The Warehouse Compound on the detailed island map, with crate spots and radiation.</td><td>The east coast on the island map: cliffs, shallows and surf.</td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/map-modern-compare.jpg" alt="The detailed map and the aerial view side by side with the compare slider."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/wiki-calculator.jpg" alt="The resource calculator working out two explosive charges and a metal door."></td></tr>
+<tr><td>The detailed map and the aerial view side by side with the compare slider.</td><td>The resource calculator working out two explosive charges and a metal door.</td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/wiki-cooking.jpg" alt="Raw Chicken Breast on the wiki: what it cooks into and which animals drop it."></td></tr>
+<tr><td>Raw Chicken Breast on the wiki: what it cooks into and which animals drop it.</td></tr></table>
+
+### Wiki guide pictures (taken in the browser port)
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/guide-gather-ore.jpg" alt="Mining an ore node with a pick axe."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/guide-furnace.jpg" alt="A lit furnace smelting ore."></td></tr>
+<tr><td>Mining an ore node with a pick axe.</td><td>A lit furnace smelting ore.</td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/guide-armour-kevlar.jpg" alt="A full Kevlar set in the armour panel."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/guide-fall-injured.jpg" alt="INJURED and BLEEDING after a 14 m drop."></td></tr>
+<tr><td>A full Kevlar set in the armour panel.</td><td>INJURED and BLEEDING after a 14 m drop.</td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/guide-bow-tired.jpg" alt="Holding a full bow draw: after 8 seconds the arrow goes back."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/guide-airdrop-smoke.jpg" alt="Supply drop smoke over the island."></td></tr>
+<tr><td>Holding a full bow draw: after 8 seconds the arrow goes back.</td><td>Supply drop smoke over the island.</td></tr></table>
+
+### Tools for server owners
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-22/host-going-quiet.jpg" alt="The host app's watchdog turning amber as a test server goes silent."></td><td width="50%"><img src="../assets/screenshots/2026-10-22/host-scripts-adopted.jpg" alt="A server started with the scripts, picked up and watched by the host app."></td></tr>
+<tr><td>The host app's watchdog turning amber as a test server goes silent. <sub><b>Test run</b></sub></td><td>A server started with the scripts, picked up and watched by the host app. <sub><b>Test run</b></sub></td></tr></table>
+
+---
+
+## 20 October 2026
 
 49 new screenshots from the current build, in the browser on a desktop GPU. These are real captures, not concept art.
 
@@ -7,10 +108,6 @@
 - **"Test server"** means the project's own test server. It is not yet a real Legacy server.
 
 Images are saved as high-quality JPEG to keep the page fast.
-
-**[▶ Download the 3½-minute gameplay video (MP4)](../assets/video/gameplay-tour-2026-10-20-v4.mp4)**
-
-[Project overview](../README.md) · [Roadmap](ROADMAP.md) · [Development journal](DEVLOG.md)
 
 **Jump to:** [Main menu and server browser](#main-menu-and-server-browser) · [The island](#the-island) · [Weapons and tools](#weapons-and-tools) · [Wildlife](#wildlife) · [Airdrops](#airdrops) · [Survival, crafting and camp life](#survival-crafting-and-camp-life) · [Building and raiding](#building-and-raiding) · [Multiplayer](#multiplayer)
 

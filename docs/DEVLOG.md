@@ -2,6 +2,16 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 21–22 October 2026 — The original server, and the website goes live
+
+- **The original server:** a browser player joined the original 2014 Rust Legacy server for the first time, on a sealed-off cloud test machine. Three small differences in our rebuild of its network language were found and fixed. Browser players now see the server's resource nodes, buildings and sleepers, gather from them, and get its starting items. Four test bots played 22 minutes with no anti-cheat kicks after the current build went onto the test machine. Two server freezes were traced to its own console window, not its save.
+- **The game:** 8,344 rocks and cliffs are solid, and you move like the original (sliding along rocks, never pushed through). The original building preview, rolling grenades, melee hitting the ground, aim drift, draw sounds, explosion flashes, metal sparks, and the original inventory scrolling, colours and sounds.
+- **Loading:** first join 25 s instead of 83 s, return visits about 3 s, download down from 210 MB to 167 MB. Checked in Firefox and Chrome too. Fullscreen play stops Ctrl+W closing the tab.
+- **Website:** live at [rustlegacy.co.uk](https://rustlegacy.co.uk) with accounts, a wiki of 39 guides, a resource calculator, a detailed island map, the dated roadmap and opening-day sign-ups.
+- **Server owners:** a host app that runs everything together and restarts a frozen server, or the scripts, as the owner prefers.
+
+917 automated tests pass. Overall estimate: **83%**. [44 new screenshots →](SCREENSHOTS.md)
+
 ## 20 October 2026 — 76% and a new gallery
 
 Since the last update the port has moved from a prototype to most of the full game:
