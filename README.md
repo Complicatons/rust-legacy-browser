@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/banner.svg" alt="Rust Legacy Browser — a browser port project by Complicatons" width="100%"></p>
 
 <p align="center">
-  <img alt="Overall progress: 83%" src="https://img.shields.io/badge/PROGRESS-83%25-e96938?style=for-the-badge">
+  <img alt="Overall progress: 87%" src="https://img.shields.io/badge/PROGRESS-87%25-e96938?style=for-the-badge">
   <img alt="Status: closed development" src="https://img.shields.io/badge/STATUS-CLOSED_DEVELOPMENT-242a30?style=for-the-badge">
   <a href="https://rustlegacy.co.uk"><img alt="Website: rustlegacy.co.uk" src="https://img.shields.io/badge/WEBSITE-RUSTLEGACY.CO.UK-e96938?style=for-the-badge"></a>
   <img alt="Creator: Complicatons" src="https://img.shields.io/badge/CREATOR-Complicatons-242a30?style=for-the-badge">
@@ -27,7 +27,7 @@ This repository is the public development journal: real screenshots, progress an
 
 <table>
 <tr>
-<td align="center" width="25%"><h2>83%</h2><sub>overall progress</sub></td>
+<td align="center" width="25%"><h2>87%</h2><sub>overall progress</sub></td>
 <td align="center" width="25%"><h2>917</h2><sub>automated tests passing</sub></td>
 <td align="center" width="25%"><h2>0</h2><sub>kicks in a 22-minute run on the original server</sub></td>
 <td align="center" width="25%"><h2>3 s</h2><sub>to rejoin the island</sub></td>
@@ -91,7 +91,7 @@ Joining from a remote server now takes **25 seconds instead of 83**, and a retur
 ## Progress — 22 October 2026
 
 ```text
-Overall   █████████████████░░░  83%
+Overall   █████████████████░░░  87%
 ```
 
 | Area | Progress | Working now | Left to do |
@@ -102,9 +102,9 @@ Overall   █████████████████░░░  83%
 | **Weapons and combat** | `█████████░` 92% | Rifles, pistols, shotguns, bows, hand cannon, grenades and C4. Sights, silencer, flashlight and laser. Recoil, aim drift, draw sounds, muzzle flash, tracers, impacts, metal sparks, explosion flashes, rolling grenades, ragdolls and hit markers | Ragdoll joint limits; combat tests on the original server |
 | **Menus, HUD and social** | `█████████▌` 97% | Original main menu, options, key rebinding, server browser and loading screen. Inventory windows with the original scrolling, button colours and sounds, F1 console, chat, push-to-talk voice and name tags | Code-lock dialog styling; small UI polish |
 | **Online play** | `█████████░` 90% | The server controls inventory, crafting, building, combat, vitals, airdrops and wildlife, tested against our own test server and now partly against the original | The rest of the gameplay checks on the original server |
-| **First real server** | `████▌░░░░░` 45% | Browser players join the original server on a sealed-off cloud test machine, gather, and get the server's starting items; 4 bots ran 22 minutes with no kicks | Crafting, building and combat checks, long multi-player runs, then installing on the public game server |
-| **Website, accounts and server list** | `████████▌░` 85% | Live at rustlegacy.co.uk: accounts (username/password or Steam), server list, wiki with 39 guides and a calculator, island map, roadmap and opening-day sign-ups | Discord sign-in and account emails; listing the first game server |
-| **Anti-cheat and admin tools** | `███████░░░` 70% | Server-side checks for wall shots, noclip, aim snapping and spam. Admin roles, bans, reports and an audit log, with every admin action tested end to end | Tuning with real players |
+| **First real server** | `█████░░░░░` 50% | Browser players join the original server on a sealed-off cloud test machine, gather, and get the server's starting items; 4 bots ran 22 minutes with no kicks. Automated crafting, building, door, combat and wildlife checks now run against it | The rest of the gameplay checks, a 3-hour multi-player run, then installing on the public game server |
+| **Website, accounts and server list** | `████████▌░` 85% | Live at rustlegacy.co.uk: accounts (username/password or Steam), server list, wiki with 39 guides and a calculator, island map, roadmap, forum and opening-day sign-ups | Discord sign-in and account emails; listing the first game server |
+| **Anti-cheat and admin tools** | `███████░░░` 70% | Server-side checks for wall shots, noclip, hovering, melee and arrow line of sight, aim snapping and spam. Admin roles, bans, reports and an audit log, with every admin action tested end to end | Tuning with real players |
 | **Performance and release polish** | `███████▌░░` 75% | First join in 25 s (was 83 s), return visits in about 3 s, 167 MB download, tested in Edge, Firefox and Chrome, stable over a 20-minute play test | Lower-end hardware |
 
 *The percentages are the project's own estimates, weighted by how much each area matters for a playable public server.*
