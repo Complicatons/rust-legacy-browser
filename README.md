@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/banner.svg" alt="Rust Legacy Browser — a browser port project by Complicatons" width="100%"></p>
 
 <p align="center">
-  <img alt="Overall progress: 87%" src="https://img.shields.io/badge/PROGRESS-87%25-e96938?style=for-the-badge">
+  <img alt="Overall progress: 93%" src="https://img.shields.io/badge/PROGRESS-93%25-e96938?style=for-the-badge">
   <img alt="Status: closed development" src="https://img.shields.io/badge/STATUS-CLOSED_DEVELOPMENT-242a30?style=for-the-badge">
   <a href="https://rustlegacy.co.uk"><img alt="Website: rustlegacy.co.uk" src="https://img.shields.io/badge/WEBSITE-RUSTLEGACY.CO.UK-e96938?style=for-the-badge"></a>
   <img alt="Creator: Complicatons" src="https://img.shields.io/badge/CREATOR-Complicatons-242a30?style=for-the-badge">
@@ -27,7 +27,7 @@ This repository is the public development journal: real screenshots, progress an
 
 <table>
 <tr>
-<td align="center" width="25%"><h2>87%</h2><sub>overall progress</sub></td>
+<td align="center" width="25%"><h2>93%</h2><sub>overall progress</sub></td>
 <td align="center" width="25%"><h2>1,116</h2><sub>automated tests passing</sub></td>
 <td align="center" width="25%"><h2>100</h2><sub>browser players at once on the original server</sub></td>
 <td align="center" width="25%"><h2>3 s</h2><sub>to rejoin the island</sub></td>
@@ -87,21 +87,21 @@ The **host app** that runs a Legacy server, our gateway and the website together
 ## Progress — 23 October 2026
 
 ```text
-Overall   █████████████████░░░  87%
+Overall   ███████████████████░  93%
 ```
 
 | Area | Progress | Working now | Left to do |
 | :--- | :--- | :--- | :--- |
-| **Original world and graphics** | `█████████░` 92% | The original island with all its buildings, rocks and trees, with the 8,344 rocks and cliffs solid. Day/night sky, stars and moon, the original sea with reflections, original lighting and shaders, grass, shadows and six quality presets | Final side-by-side comparison with the original |
-| **Survival, gathering and wildlife** | `██████████` 95% | Gathering, 61 blueprints, crafting, hunger, bleeding, radiation, cold, cooking, research kits, loot crates. Chickens, rabbits, boar, stags, wolves, bears and mutants with the original AI | Small behaviour differences |
-| **Building and raiding** | `█████████░` 93% | Foundations to roofs, doors, code locks, storage, sleeping bags, decay, the original placement preview, and raiding with grenades and C4 using the original damage rules | Building and raiding tests on the original server |
-| **Weapons and combat** | `█████████░` 92% | Rifles, pistols, shotguns, bows, hand cannon, grenades and C4. Sights, silencer, flashlight and laser. Recoil, aim drift, draw sounds, muzzle flash, tracers, impacts, metal sparks, explosion flashes, rolling grenades, ragdolls and hit markers | Ragdoll joint limits; combat tests on the original server |
-| **Menus, HUD and social** | `█████████▌` 97% | Original main menu, options, key rebinding, server browser and loading screen. Inventory windows with the original scrolling, button colours and sounds, F1 console, chat, push-to-talk voice and name tags | Code-lock dialog styling; small UI polish |
-| **Online play** | `█████████░` 90% | The server controls inventory, crafting, building, combat, vitals, airdrops and wildlife, tested against our own test server and now partly against the original | The rest of the gameplay checks on the original server |
-| **First real server** | `█████░░░░░` 50% | Browser players join the original server on a sealed-off cloud test machine, gather, and get the server's starting items; 100 browser players at once, a 3-hour 17-minute run without a drop, a restart mid-game and +500 ms lag with no kicks. Automated crafting, building, door, combat and wildlife checks run against it | The last gameplay checks, then installing on the public game server |
-| **Website, accounts and server list** | `████████▌░` 85% | Live at rustlegacy.co.uk: accounts (username/password or Steam), server list, wiki with 39 guides and a calculator, island map, roadmap, forum and opening-day sign-ups | Discord sign-in and account emails; listing the first game server |
-| **Anti-cheat and admin tools** | `███████░░░` 70% | Server-side checks for wall shots, noclip, hovering, melee and arrow line of sight, aim snapping and spam. Admin roles, bans, reports and an audit log, with every admin action tested end to end | Tuning with real players |
-| **Performance and release polish** | `███████▌░░` 75% | First join in 25 s (was 83 s), return visits in about 3 s, 167 MB download, tested in Edge, Firefox and Chrome, stable over a 20-minute play test | Lower-end hardware |
+| **Original world and graphics** | `██████████` 95% | The original island with all its buildings, rocks and trees, the ground now shaped exactly like the original's terrain. Day/night sky, stars and moon, the original sea with reflections, original lighting and shaders, grass, shadows, terrain detail by the original rule and six quality presets | Final side-by-side comparison with the original (lighting, tall grass) |
+| **Survival, gathering and wildlife** | `██████████` 97% | Gathering, 61 blueprints, crafting, hunger, bleeding, radiation, cold, cooking, research kits, loot crates. Chickens, rabbits, boar, stags, wolves, bears and mutants with the original AI, coats, sounds and attacks; hunting checked on the original server | Small behaviour differences |
+| **Building and raiding** | `██████████` 96% | Foundations to roofs, doors, code locks, storage, sleeping bags, decay, spike walls, fires, the repair bench window, the original placement preview, and raiding with grenades and C4 using the original damage rules; building, doors and fires checked on the original server | Last raid checks on the original server |
+| **Weapons and combat** | `██████████` 96% | Rifles, pistols, shotguns, bows, hand cannon, grenades and C4. Sights, silencer, flashlight and laser. Recoil, aim drift, original melee impacts, explosion sounds, tracers, ragdolls, the death camera and hit markers; melee fights between two players checked on the original server | Last combat checks on the original server |
+| **Menus, HUD and social** | `██████████` 99% | Original main menu, options, key rebinding, server browser and loading screen. Inventory windows with the original drag-and-drop, scrolling, colours and sounds; F1 console from the main menu, chat over the inventory, push-to-talk voice and name tags | Small UI polish |
+| **Online play** | `██████████` 95% | The server controls inventory, crafting, building, combat, vitals, airdrops and wildlife. Two browser players meet, see each other and fight on the original server; movement now matches the original's rules exactly | Last gameplay checks on the original server |
+| **First real server** | `███████▌░░` 75% | Browser players join the original server on a sealed-off cloud test machine. 100 browser players at once, a 3-hour run without a drop, a restart mid-game, +500 ms lag with no kicks, two-player meets and fights, and automated crafting, building, door, combat and wildlife checks. The public game server is prepared | Admin and cheat tests on the original server, then switching on the public game server |
+| **Website, accounts and server list** | `█████████░` 90% | Live at rustlegacy.co.uk: accounts (username/password or Steam), server list, wiki with 39 guides and a calculator, island map, roadmap with pictures for every entry, forum, leaderboards, opening-day sign-ups, search-engine and security polish | Discord sign-in and account emails |
+| **Anti-cheat and admin tools** | `████████▌░` 85% | Server-side checks for wall shots, noclip, hovering, speed, teleports, fire rate, melee and arrow line of sight, doors and aim snapping, plus item-transfer evidence and desktop-player combat checks. Admin roles, bans, reports and an audit log; every cheat test flagged and normal play clean | Tuning with real players |
+| **Performance and release polish** | `████████▌░` 88% | First join in 20 s, return visits in about 3 s, a clear message when a browser can't run the game, recovery after a graphics reset, tested in Edge, Firefox and Chrome, stable memory over long play | Lower-end hardware |
 
 *The percentages are the project's own estimates, weighted by how much each area matters for a playable public server.*
 
