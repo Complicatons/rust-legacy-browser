@@ -6,7 +6,7 @@ Updated 22 October 2026. Rust Legacy as a desktop browser game. Keeping the orig
 Overall   █████████████████░░░  83%
 ```
 
-The [project overview](../README.md#progress--22-october-2026) has the area-by-area breakdown. The website has the **[full dated update history](https://rustlegacy.co.uk/roadmap)**, with pictures and clips for every finished piece.
+The [project overview](../README.md#progress--23-october-2026) has the area-by-area breakdown. The website has the **[full dated update history](https://rustlegacy.co.uk/roadmap)**, with pictures and clips for every finished piece.
 
 ## Done
 

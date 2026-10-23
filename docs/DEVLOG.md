@@ -2,6 +2,17 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 22–23 October 2026 — 100 players on the original server, and a full playtest
+
+- **The original server at scale:** 100 browser players at once on the original 2014 server (ping 101 ms), a 3-hour 17-minute run without a drop, a stop and restart mid-game, and half a second of added lag with no kicks. Bugs it showed in our bridge are fixed.
+- **Bots play the whole game:** two browser bots craft, build a base, lock a door, cook, smelt, raid, hunt, fight, loot each other and lose their connection, all checked against what the server says. 47 of 48 online test rows pass.
+- **A full playtest, twice:** we played the game start to finish, alone and online. Everything that behaved differently from the original is fixed, including repairing with wood and a dead save that loaded a walking corpse.
+- **Closer to the original:** walking, sprinting and jumping rules; gunfire, grenades and ragdolls (11 fixes); animals on hills, their coats and bites; spike walls, fires and the repair bench; blueprints kept on death; menus, chat and the console with the inventory open; terrain detail chosen like the original; the laser sight; mutants drop loot sacks; other players and animals move with the original's timing.
+- **Fair play:** you don't need Steam to play. Bans follow the person, not just the account, and admins can take a screenshot of what a suspected cheater sees. The anti-cheat checks melee, arrows and hits for walls in the way and spots hovering players.
+- **Server owners:** the host app installs from one download as a Windows service, with pages for players, cheat evidence, world saves, linked accounts and updates with one-click roll back.
+
+1,116 automated tests pass. [18 new screenshots →](SCREENSHOTS.md) · [Every update, day by day →](https://rustlegacy.co.uk/roadmap)
+
 ## 21–22 October 2026 — The original server, and the website goes live
 
 - **The original server:** a browser player joined the original 2014 Rust Legacy server for the first time, on a sealed-off cloud test machine. Three small differences in our rebuild of its network language were found and fixed. Browser players now see the server's resource nodes, buildings and sleepers, gather from them, and get its starting items. Four test bots played 22 minutes with no anti-cheat kicks after the current build went onto the test machine. Two server freezes were traced to its own console window, not its save.

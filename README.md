@@ -28,67 +28,63 @@ This repository is the public development journal: real screenshots, progress an
 <table>
 <tr>
 <td align="center" width="25%"><h2>87%</h2><sub>overall progress</sub></td>
-<td align="center" width="25%"><h2>917</h2><sub>automated tests passing</sub></td>
-<td align="center" width="25%"><h2>0</h2><sub>kicks in a 22-minute run on the original server</sub></td>
+<td align="center" width="25%"><h2>1,116</h2><sub>automated tests passing</sub></td>
+<td align="center" width="25%"><h2>100</h2><sub>browser players at once on the original server</sub></td>
 <td align="center" width="25%"><h2>3 s</h2><sub>to rejoin the island</sub></td>
 </tr>
 </table>
 
-## Latest updates — 21 & 22 October
+## Latest updates — 22 & 23 October
 
-### Browser players on the original server
+### 100 players on the original server
 
-For the first time, a player in a web browser joined the **original 2014 Rust Legacy server** and spawned on the island. It ran on a sealed-off test machine in the cloud. Since then, browser players have gathered resources and received the server's own starting items. Four test bots played for **22 minutes with no anti-cheat kicks and no disconnects**.
-
-<table>
-<tr>
-<td width="50%"><img src="assets/screenshots/2026-10-22/native-gather.jpg" alt="Gathering sulfur ore on the original server"></td>
-<td width="50%"><img src="assets/screenshots/2026-10-22/original-server-belt.jpg" alt="The original server's starting items on the belt"></td>
-</tr>
-<tr><td>Test run on the original server: gathering sulfur ore with the Rock</td><td>Test run on the original server: the Rock, Bandages and Torch it gives every new player</td></tr>
-</table>
-
-### A more solid, more faithful game
-
-The island's **8,344 rocks and cliffs are now solid** for players, bullets and building, and you slide along them the way the original moved you. Building pieces show the **original pulsing green/red preview**. Guns drift while you aim, bullets spark on metal, explosions flash the way they did, and grenades bounce and roll.
+We filled the **original 2014 Rust Legacy server** on our sealed-off cloud test machine with **100 browser players** at once (ping 101 ms). It ran for **3 hours 17 minutes without a drop**, was stopped mid-game and started again, and survived half a second of added lag with no kicks. Two test bots now play the whole game against the server: they craft, build a base, lock a door, cook, raid, hunt, fight and loot each other.
 
 <table>
 <tr>
-<td width="50%"><img src="assets/screenshots/2026-10-22/placement-wall.jpg" alt="The original green building preview on a wall"></td>
-<td width="50%"><img src="assets/screenshots/2026-10-22/placement-invalid.jpg" alt="A red preview where a foundation doesn't fit"></td>
+<td width="50%"><img src="assets/screenshots/2026-10-23/matrix-base.jpg" alt="A base built by a test bot"></td>
+<td width="50%"><img src="assets/screenshots/2026-10-23/matrix-door-code.jpg" alt="A test bot opening a locked door with the code"></td>
 </tr>
-<tr><td>The original building preview: green where a wall fits…</td><td>…and red where a foundation doesn't</td></tr>
+<tr><td>Test run: a bot built this base itself, from foundation to ceiling</td><td>Test run: the second bot was refused at the locked door, then typed the owner's code and got in</td></tr>
 <tr>
-<td><img src="assets/screenshots/2026-10-22/rock-top.jpg" alt="Standing on top of a solid rock"></td>
-<td><img src="assets/screenshots/2026-10-22/explosion-flash.jpg" alt="A grenade's flash at night"></td>
+<td><img src="assets/screenshots/2026-10-23/matrix-loot.jpg" alt="Looting the loser's sack after a fight"></td>
+<td><img src="assets/screenshots/2026-10-23/bad-network-500ms.jpg" alt="A test player on the original server with added lag"></td>
 </tr>
-<tr><td>Standing on a rock 39 m above the ground: rocks are solid now</td><td>An F1 grenade at night: the original quarter-second flash</td></tr>
-<tr>
-<td><img src="assets/screenshots/2026-10-22/rpos-scroll-craft.jpg" alt="The crafting list scrolled"></td>
-<td><img src="assets/screenshots/2026-10-22/placement-c4.jpg" alt="An explosive charge aimed at a wall"></td>
-</tr>
-<tr><td>The crafting list scrolls with the original scroll bar and button colours</td><td>Aiming an explosive charge: the target lights up, as in the original</td></tr>
+<tr><td>Test run: after the fight, the winner opens the loser's loot sack, armour and all</td><td>Test run on the original server with half a second of added lag and 5% packet loss</td></tr>
 </table>
 
-### Much faster loading
+### We played the whole game
 
-Joining from a remote server now takes **25 seconds instead of 83**, and a return visit loads in about **3 seconds**. The download dropped from 210 MB to 167 MB with the same picture. The game is now tested in **Firefox and Chrome** as well as Edge, and it plays in fullscreen so crouch-walking with Ctrl+W can't close the tab.
-
-### The website is live
-
-**[rustlegacy.co.uk](https://rustlegacy.co.uk)** is up on our own server in London. It has accounts, the server list, a **wiki with 39 guides and a resource calculator**, a detailed **island map**, the dated roadmap and [opening-day sign-ups](https://rustlegacy.co.uk/launch). No game servers are listed yet.
+We played the browser game start to finish, alone and online, from the menu to raiding a base, and fixed everything that behaved differently from the original. Movement, jumping, gunfire, grenades, ragdolls, animals, building rules, blueprints, crafting, menus, chat and the console were all checked against the original game's code again. Repairing with wood works, mutants drop their loot sacks, and you keep your blueprints when you die.
 
 <table>
 <tr>
-<td width="50%"><img src="assets/screenshots/2026-10-22/site-launch.jpg" alt="The launch sign-up page"></td>
-<td width="50%"><img src="assets/screenshots/2026-10-22/map-modern-compound.jpg" alt="The island map at the warehouse compound"></td>
+<td width="50%"><img src="assets/screenshots/2026-10-23/playtest-raid.jpg" alt="A door blown off by an explosive charge"></td>
+<td width="50%"><img src="assets/screenshots/2026-10-23/playtest-repair.jpg" alt="Repairing a damaged doorway with wood"></td>
 </tr>
-<tr><td>The launch page: get notified or join the Discord</td><td>The detailed island map, drawn from the game's own rocks, buildings and trees</td></tr>
+<tr><td>An explosive charge took the door; the doorway behind is at half health</td><td>…and repairing it with wood: "Healed 100 (802/1000)"</td></tr>
+<tr>
+<td><img src="assets/screenshots/2026-10-23/mutant-sack.jpg" alt="A mutant wolf's loot sack"></td>
+<td><img src="assets/screenshots/2026-10-23/rpos-repair-bench.jpg" alt="The repair bench window"></td>
+</tr>
+<tr><td>A mutant wolf's loot sack beside its body</td><td>The repair bench shows what a repair costs</td></tr>
 </table>
 
-**[All the new screenshots, with labels →](docs/SCREENSHOTS.md)** · **[Full update history →](https://rustlegacy.co.uk/roadmap)**
+### Tools for server owners
 
-## Progress — 22 October 2026
+The **host app** that runs a Legacy server, our gateway and the website together now installs from **one download** as its own Windows service. It has pages for players, cheat evidence, world saves, linked accounts and updates with one-click roll back.
+
+<table>
+<tr>
+<td width="50%"><img src="assets/screenshots/2026-10-23/host-anticheat.jpg" alt="Cheat evidence in the host app"></td>
+<td width="50%"><img src="assets/screenshots/2026-10-23/host-backups.jpg" alt="World saves in the host app"></td>
+</tr>
+<tr><td>Cheat evidence on the demo server: every flag with its measurements and the player's path</td><td>World saves kept by the freeze watchdog and by hand</td></tr>
+</table>
+
+**[All the new screenshots →](docs/SCREENSHOTS.md)** · **[Every update, day by day →](https://rustlegacy.co.uk/roadmap)**
+
+## Progress — 23 October 2026
 
 ```text
 Overall   █████████████████░░░  87%
@@ -102,7 +98,7 @@ Overall   █████████████████░░░  87%
 | **Weapons and combat** | `█████████░` 92% | Rifles, pistols, shotguns, bows, hand cannon, grenades and C4. Sights, silencer, flashlight and laser. Recoil, aim drift, draw sounds, muzzle flash, tracers, impacts, metal sparks, explosion flashes, rolling grenades, ragdolls and hit markers | Ragdoll joint limits; combat tests on the original server |
 | **Menus, HUD and social** | `█████████▌` 97% | Original main menu, options, key rebinding, server browser and loading screen. Inventory windows with the original scrolling, button colours and sounds, F1 console, chat, push-to-talk voice and name tags | Code-lock dialog styling; small UI polish |
 | **Online play** | `█████████░` 90% | The server controls inventory, crafting, building, combat, vitals, airdrops and wildlife, tested against our own test server and now partly against the original | The rest of the gameplay checks on the original server |
-| **First real server** | `█████░░░░░` 50% | Browser players join the original server on a sealed-off cloud test machine, gather, and get the server's starting items; 4 bots ran 22 minutes with no kicks. Automated crafting, building, door, combat and wildlife checks now run against it | The rest of the gameplay checks, a 3-hour multi-player run, then installing on the public game server |
+| **First real server** | `█████░░░░░` 50% | Browser players join the original server on a sealed-off cloud test machine, gather, and get the server's starting items; 100 browser players at once, a 3-hour 17-minute run without a drop, a restart mid-game and +500 ms lag with no kicks. Automated crafting, building, door, combat and wildlife checks run against it | The last gameplay checks, then installing on the public game server |
 | **Website, accounts and server list** | `████████▌░` 85% | Live at rustlegacy.co.uk: accounts (username/password or Steam), server list, wiki with 39 guides and a calculator, island map, roadmap, forum and opening-day sign-ups | Discord sign-in and account emails; listing the first game server |
 | **Anti-cheat and admin tools** | `███████░░░` 70% | Server-side checks for wall shots, noclip, hovering, melee and arrow line of sight, aim snapping and spam. Admin roles, bans, reports and an audit log, with every admin action tested end to end | Tuning with real players |
 | **Performance and release polish** | `███████▌░░` 75% | First join in 25 s (was 83 s), return visits in about 3 s, 167 MB download, tested in Edge, Firefox and Chrome, stable over a 20-minute play test | Lower-end hardware |

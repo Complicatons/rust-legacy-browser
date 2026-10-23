@@ -4,6 +4,48 @@
 
 **[▶ Download the 3½-minute gameplay video (MP4)](../assets/video/gameplay-tour-2026-10-20-v4.mp4)**
 
+## 22 & 23 October
+
+18 new screenshots. **"Test run"** marks captures from the automated checks and the host app's demo server.
+
+### Bots play the whole game against the server
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-23/matrix-base.jpg" alt="A bot built this base itself: foundation, pillars, a wall, a doorway, a ceiling and stairs."></td><td width="50%"><img src="../assets/screenshots/2026-10-23/matrix-door-code.jpg" alt="The second bot was refused at the locked door, then typed the owner's code and got in."></td></tr>
+<tr><td>A bot built this base itself: foundation, pillars, a wall, a doorway, a ceiling and stairs. <sub><b>Test run</b></sub></td><td>The second bot was refused at the locked door, then typed the owner's code and got in. <sub><b>Test run</b></sub></td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-23/matrix-campfire.jpg" alt="The camp fire burned Wood into charcoal and cooked the raw chicken the bot put in."></td><td width="50%"><img src="../assets/screenshots/2026-10-23/matrix-loot.jpg" alt="After the fight, the winner opens the loser's loot sack, armour and all."></td></tr>
+<tr><td>The camp fire burned Wood into charcoal and cooked the raw chicken the bot put in. <sub><b>Test run</b></sub></td><td>After the fight, the winner opens the loser's loot sack, armour and all. <sub><b>Test run</b></sub></td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-23/bad-network-500ms.jpg" alt="On the original server with half a second of added lag and 5% packet loss, chatting with another test player."></td></tr>
+<tr><td>On the original server with half a second of added lag and 5% packet loss, chatting with another test player. <sub><b>Test run</b></sub></td></tr></table>
+
+### The full playtest
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-23/playtest-raid.jpg" alt="An explosive charge on a wooden door: the door is gone and the doorway behind it is at half health."></td><td width="50%"><img src="../assets/screenshots/2026-10-23/playtest-repair.jpg" alt="Wood on the belt, aimed at the damaged doorway: &quot;Healed 100 (802/1000)&quot;."></td></tr>
+<tr><td>An explosive charge on a wooden door: the door is gone and the doorway behind it is at half health.</td><td>Wood on the belt, aimed at the damaged doorway: "Healed 100 (802/1000)".</td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-23/dead-save-after.jpg" alt="A save closed on the death screen now starts a fresh character with the rock, bandage and torch."></td><td width="50%"><img src="../assets/screenshots/2026-10-23/rpos-repair-bench.jpg" alt="The repair bench with a damaged hatchet: what you have in green, what you lack in red."></td></tr>
+<tr><td>A save closed on the death screen now starts a fresh character with the rock, bandage and torch.</td><td>The repair bench with a damaged hatchet: what you have in green, what you lack in red.</td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-23/resource-stage-dust.jpg" alt="A wood pile shrinks: the original dust burst rises around it."></td><td width="50%"><img src="../assets/screenshots/2026-10-23/revolver-idle-walk.jpg" alt="Walking with the revolver: the original idle sway."></td></tr>
+<tr><td>A wood pile shrinks: the original dust burst rises around it. <sub><b>Test run</b></sub></td><td>Walking with the revolver: the original idle sway. <sub><b>Test run</b></sub></td></tr></table>
+
+### Mutants
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-23/mutant-wolf.jpg" alt="A mutant wolf charging."></td><td width="50%"><img src="../assets/screenshots/2026-10-23/mutant-bear.jpg" alt="A mutant bear."></td></tr>
+<tr><td>A mutant wolf charging.</td><td>A mutant bear.</td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-23/mutant-sack.jpg" alt="A mutant wolf's loot sack beside its body."></td><td width="50%"><img src="../assets/screenshots/2026-10-23/mutant-sack-loot.jpg" alt="Searching the sack: this one held a blueprint."></td></tr>
+<tr><td>A mutant wolf's loot sack beside its body.</td><td>Searching the sack: this one held a blueprint.</td></tr></table>
+
+### The host app for server owners
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-23/host-anticheat.jpg" alt="Cheat evidence on the demo server: every flag with its measurements and the player's path seen from above."></td><td width="50%"><img src="../assets/screenshots/2026-10-23/host-backups.jpg" alt="World saves kept by the freeze watchdog and by hand, with one put back."></td></tr>
+<tr><td>Cheat evidence on the demo server: every flag with its measurements and the player's path seen from above. <sub><b>Test run</b></sub></td><td>World saves kept by the freeze watchdog and by hand, with one put back. <sub><b>Test run</b></sub></td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-23/host-fresh-install.jpg" alt="The dashboard right after a fresh install, before any part of the server is set up."></td></tr>
+<tr><td>The dashboard right after a fresh install, before any part of the server is set up. <sub><b>Test run</b></sub></td></tr></table>
+
 ## 21 & 22 October
 
 44 new screenshots from the browser port and the website. **"Test run"** marks captures from the automated checks. "Original server" shots are from the original 2014 server on the project's sealed-off cloud test machine.
