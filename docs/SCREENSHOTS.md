@@ -4,6 +4,42 @@
 
 **[▶ Download the 3½-minute gameplay video (MP4)](../assets/video/gameplay-tour-2026-10-20-v4.mp4)**
 
+## 24–29 October
+
+13 new screenshots. **"Test run"** marks captures from the automated checks and the host app's demo server.
+
+### Rust Legacy Host: the server-owner app
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-29/host-boot.jpg" alt="Starting up: each part of the server checked and started in order."></td><td width="50%"><img src="../assets/screenshots/2026-10-29/host-terminal.jpg" alt="The dashboard with a terminal docked at the side, restarting the gateway."></td></tr>
+<tr><td>Starting up: each part of the server checked and started in order. <sub><b>Test run</b></sub></td><td>The dashboard with a terminal docked at the side, restarting the gateway. <sub><b>Test run</b></sub></td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-29/host-installer-server.jpg" alt="The installer checking an existing server folder: its SHA-256, the kind of server, and whether it can be made browser-ready."></td><td width="50%"><img src="../assets/screenshots/2026-10-29/host-attach.jpg" alt="The setup page's choice to attach an existing server exactly as it is."></td></tr>
+<tr><td>The installer checking an existing server folder: its SHA-256, the kind of server, and whether it can be made browser-ready. <sub><b>Test run</b></sub></td><td>The setup page's choice to attach an existing server exactly as it is. <sub><b>Test run</b></sub></td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-29/host-setup.jpg" alt="The setup wizard: each step's plan, its live output and its result."></td><td width="50%"><img src="../assets/screenshots/2026-10-29/host-health.jpg" alt="Players, response time and CPU over the last day and week."></td></tr>
+<tr><td>The setup wizard: each step's plan, its live output and its result. <sub><b>Test run</b></sub></td><td>Players, response time and CPU over the last day and week. <sub><b>Test run</b></sub></td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-29/host-schedule.jpg" alt="A scheduled restart counting down, with players already warned."></td><td width="50%"><img src="../assets/screenshots/2026-10-29/host-settings.jpg" alt="Server settings in the host app, each with a short explanation."></td></tr>
+<tr><td>A scheduled restart counting down, with players already warned. <sub><b>Test run</b></sub></td><td>Server settings in the host app, each with a short explanation. <sub><b>Test run</b></sub></td></tr></table>
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-29/host-offsite.jpg" alt="World saves copied off-site on a schedule, encrypted if the owner likes."></td><td width="50%"><img src="../assets/screenshots/2026-10-29/host-player-history.jpg" alt="One player's history: sessions, names, flags and kicks."></td></tr>
+<tr><td>World saves copied off-site on a schedule, encrypted if the owner likes. <sub><b>Test run</b></sub></td><td>One player's history: sessions, names, flags and kicks. <sub><b>Test run</b></sub></td></tr></table>
+
+### The host app on a real server
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-29/vm-host-overview.jpg" alt="Rust Legacy Host running the original game server on the test machine."></td></tr>
+<tr><td>Rust Legacy Host running the original game server on the test machine.</td></tr></table>
+
+### Desktop players
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-29/launcher-signup.jpg" alt="The desktop launcher's Create account screen."></td></tr>
+<tr><td>The desktop launcher's Create account screen. <sub><b>Test run</b></sub></td></tr></table>
+
+### Closer to the original
+
+<table><tr><td width="50%"><img src="../assets/screenshots/2026-10-29/remote-torch-night.jpg" alt="Another player's torch at night, now lit from the message the original server really sends."></td></tr>
+<tr><td>Another player's torch at night, now lit from the message the original server really sends.</td></tr></table>
+
 ## 22 & 23 October
 
 18 new screenshots. **"Test run"** marks captures from the automated checks and the host app's demo server.

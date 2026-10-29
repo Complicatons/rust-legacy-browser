@@ -2,6 +2,17 @@
 
 Maintained by [Complicatons](https://github.com/Complicatons). Entries below summarise the existing private Git history; they are not backdated public announcements. The public journal was first prepared on 17 October 2026.
 
+## 24–29 October 2026 — The island is playable right now, and a real app for server owners
+
+- **[rustlegacy.co.uk/play](https://rustlegacy.co.uk/play) is live.** Anyone can open the recovered island in their browser with no download, right now.
+- **Rust Legacy Host became an actual Windows app:** its own window, tray icon, boot screen and a docked terminal. It installs from one download, and an owner with a server already running can attach it as it is with one code. It gained a setup wizard, health graphs, Discord alerts, scheduled restarts and wipes, a settings and plugin editor, a one-button health check, off-site backups and signed updates.
+- **Installed on a real Windows server for the first time**, running the original Rust Legacy server: clean saves and quits, scheduled restarts, map wipes, and five days unattended, which found and fixed a crashed game server that was never restarted automatically.
+- **Desktop players can sign up from inside the launcher itself**, with the same website account working in the browser and the original game.
+- **Checked against the original server again:** the messages it sends the game and sends back, movement, menus, UI edge cases, item handling, sounds and third-party timing, with 131 commits of fixes and tests since the last update.
+- **The website gained a forum, leaderboards, a staff review panel for new server listings, a rewritten privacy notice, and automated testing (GitHub Actions) on every change.**
+
+[13 new screenshots →](SCREENSHOTS.md) · [Every update, day by day →](https://rustlegacy.co.uk/roadmap)
+
 ## 22–23 October 2026 — 100 players on the original server, and a full playtest
 
 - **The original server at scale:** 100 browser players at once on the original 2014 server (ping 101 ms), a 3-hour 17-minute run without a drop, a stop and restart mid-game, and half a second of added lag with no kicks. Bugs it showed in our bridge are fixed.
